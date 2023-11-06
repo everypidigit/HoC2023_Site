@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="stlz_alternative.css">
     <title> Главная | Час Кода Казахстан </title>
     <link rel="icon" href="https://hourofcode.com/us/en/images/hour-of-code-logo.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,26 +16,26 @@
     <!-- HEADER + NAV -->
     <header>
         <div>
-            <a href="https://hourofcode.com/us" text-decoration: "none" >
-            <img 
-            src="https://cdn.cookielaw.org/logos/a810c6a9-5986-41f3-b636-8944508580bc/137bbdcc-0f94-4459-a1f3-9c448fa6e7f1/efa1240a-7a30-46bc-b2ef-17d3f26df5f2/codedotorg.png"
-            alt="hoc-Icon" class="header-icon">
-            </a>
-
             <a href="https://hourofcode.com/us">
             <img src="https://hourofcode.com/us/en/images/hour-of-code-logo.png" alt="hoc-Icon" class="header-icon">
             </a>
 
+            <!-- <a href="https://firstrobotics.kz/first-kaz">
+                <img src="imgs/ustemLogo.png" alt="ustemLogo" class="header-icon">
+            </a> -->
+
             <a href="https://firstrobotics.kz/first-kaz">
-                <img src="imgs/ustemLogo.png" alt="hoc-Icon" class="header-icon">
+                <img src="imgs/ustemLogoBlack.png" alt="ustemLogoBlack" class="header-icon-ustem-long">
             </a>
         </div>
         <div>
-            <nav id="nav" style="border:3px solid #1bacbb;">
-                <a href="#hero">главная</a>
-                <a href="#media">отчёт</a>
-                <a href="#contacts">контакты</a>
-                <a href="#partners">партнёры</a>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#hero">главная</a></li>
+                    <li><a href="#media">отчёт</a></li>
+                    <li><a href="#contacts">контакты</a></li>
+                    <li><a href="#partners">партнёры</a></li>
+                </ul>
             </nav>
         </div>
         <div class="language-selector">
@@ -47,24 +47,26 @@
 
     <!-- HERO SECTION -->
     <div class="row" id="hero" >
-        <div class="column-hero-image" 
-        style="background-color:#dedede; width:100%">
-            <img src="imgs/heroImg.png" style="opacity: 90%; border: 1px solid black;">
+        <div class="column-hero-image">
+            <img src="imgs/heroClean.png">
             <div class="column-hero-text">
                 <p>
                 <h1 style="text-transform: uppercase;"><strong>Добро пожаловать на Час Кода</strong>!</h1>
                 <h3 style="text-transform: uppercase;">задания будут доступны в ноябре</h3>
 
                 <!-- REGISTRATION TRIGGER BUTTON -->
-                <button id="registerButton">Register</button>
+                <!-- <button id="registerButton">зарегистрироваться</button> -->
+  
 
                 </p>
 
                 <p>
                     <div class="counter-container">
-                        <h2>УЖЕ ЗАРЕГИСТРИРОВАЛИСЬ</h2>
-                        <div id="userCounter"> <h1>загрузка...</h1></div>
+                        <!-- <h2>уже</h2> -->
+                        <div id="userCounter" style="color:#515151; font-size: 50px;"> <h1>загрузка...</h1></div>
+                        <h2>участников</h2>
                     </div>
+                    <button class="button-30" id="registerButton">зарегистрироваться</button>
 
                 </p>
             </div>
@@ -76,18 +78,40 @@
     <div id="registrationPopup" class="popup">
         <div class="container">
             <form id="registrationForm" action="/register" method="post">
-                <label for="username">Имя пользователя:</label>
+                <label for="username">Имя:</label>
                 <input type="text" id="username" name="username" required>
 
                 <label for="email">Почта:</label>
                 <input type="email" id="email" name="email" required>
 
+                <!-- dropdown -->
                 <label for="city">Город:</label>
                 <input type="city" id="city" name="city" required>
 
-                <button type="submit" id="submitRegistration">Зарегистрироваться</button>
+                <!-- dropdown -->
+                <label for="region">Область:</label>
+                <input type="region" id="region" name="region" required>
+
+                <label for="role">Роль:</label>
+                <input type="role" id="role" name="role" required>
+
+                <!-- dropdown -->
+                <label for="language">Язык:</label>
+                <input type="language" id="language" name="language" required>
+
+                <!-- dropdown -->
+                <label for="gender">Пол:</label>
+                <input type="gender" id="gender" name="gender" required>
+
+                <label for="age">Возраст:</label>
+                <input type="age" id="age" name="age" required>
+
+                <label for="school">Учебное заведение:</label>
+                <input type="school" id="school" name="school" required>
+
+                <button type="submit" id="submitRegistration" class="button-6">Зарегистрироваться</button>
             </form>
-            <button id="closePopup">Закрыть</button>
+            <button id="closePopup" class="button-6">Закрыть</button>
         </div>
     </div>
 
@@ -136,8 +160,7 @@
     <h1 style="text-transform: uppercase; text-align: centered;"> Медиа: </h1>
     <div class="row" id="media">
         <div class="column-image">
-            <img src="imgs/media1.jpg" 
-            style="text-align:center; border:1px solid #515151; border-radius: 5px;">
+            <img src="imgs/media1.jpg">
         </div>
         
         <!-- TO DO: ADD PADDING FOR VIDEO -->
@@ -145,17 +168,15 @@
             <iframe src="https://www.youtube.com/embed/mfmN8JTXt7A?si=UwUmgoe-pYtgfvMP" 
             title="HoC2022" 
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-            allowfullscreen style="border:1px solid #515151; border-radius: 5px; "></iframe>
+            allowfullscreen></iframe>
         </div>
     </div>
     <div class="row" id="media">
         <div class="column-image">
-            <img src="imgs/media2.jpg" 
-            style="text-align:center; border:1px solid #515151; border-radius: 5px;">
+            <img src="imgs/media2.jpg">
         </div>
         <div class="column-image">
-            <img src="imgs/media3.jpg" 
-            style="text-align:center; border:2px solid #515151; border-radius: 5px;">
+            <img src="imgs/media3.jpg">
         </div>
     </div>
 
@@ -165,37 +186,31 @@
     <div class="row-organizers" id="contacts">
 
         <div class="column-organizer">
-            <img src="imgs/daniil-min.jpg" 
-            style=" 
-            text-align:center;
-            border:3px solid #515151">
+            <img src="imgs/daniil-min.jpg">
             <p> <strong>Даниил</strong></p>
             <p> Операционный директор,
                 <br>
-                <em>daniil.filimonov@nu.edu.kz</em>
+                <em>
+                    daniil@ustemrobotics.kz</em>
             </p>
         </div>
         
         <div class="column-organizer">
-            <img src="imgs/zhanna-min.jpg" 
-            style=" 
-            text-align:center;
-            border:3px solid #515151">
+            <img src="imgs/zhanna-min.jpg">
             <p><strong>Жанна</strong></p>
             <p> Главный организатор, 
                 <br>
-                <em>@ustemrobotics.kz</em>
+                <em>
+                    zhanna@ustemrobotics.kz</em>
             </p>
         </div>
         <div class="column-organizer">
-            <img src="imgs/Konstantin-min.jpg" 
-            style="
-            text-align:center;
-            border:3px solid #515151">
+            <img src="imgs/Konstantin-min.jpg">
             <p> <strong>Константин</strong> </p>
             <p> Операционный директор,
                 <br>
-                <em>hourofcodekazakhstan@gmail.com</em>  
+                <em>
+                    konstantin@ustemrobotics.kz</em>  
             </p>
         </div>
 
@@ -204,47 +219,38 @@
 
     <!-- PARTNERS SECTION -->
     <h1 style="text-transform: uppercase;text-align: centered;"> наши партнёры</h1>
-    <div class="row-info" id="partners" style="display: flex; align-items: center;">
-        <div class="column-info-stats">
-            <a href="#hero">
-            <img src="imgs/color-mark-logo-min.png" style="width:30%; height:auto; text-align:center">
-            </a>
-            <p style="text-transform: uppercase;"> <strong> Kerneu</strong> </p>
+    <div class="partners" id="partners">
+        <a href="#hero" class="partner-logo">
+        <img src="imgs/color-mark-logo-min.png" >
+        <p> Kerneu</p>
+        </a>
 
-            <br>
 
-            <a href="https://firstrobotics.kz/">
-            <img src="imgs/FIRST_Vertical_RGB-min.png" style="width:50%; height:auto; text-align:center">
-            </a>
-            <p style="text-transform: uppercase;"> <strong> First</strong> </p>
+        <a href="https://firstrobotics.kz/" class="partner-logo">
+        <img src="imgs/FIRST_Vertical_RGB-min.png">
+        <p > First </p>
+        </a>
 
-            <br>
 
-        </div>
-        <div class="column-info-stats">
-            <a href="https://steptoenglish.org/about">
-            <img src="imgs/stepLogo-min.png" style="width:40%; height:auto; text-align:center">
-            </a>
-            <p style="text-transform: uppercase;"> <strong> step</strong> </p>
 
-            <br>
+        <a href="https://steptoenglish.org/about" class="partner-logo">
+        <img src="imgs/stepLogo-min.png">
+        <p "> step</p>
+        </a>
+       
 
-            <a href="https://firstrobotics.kz/first-kaz">
-                <img src="imgs/ustemLogoBlue.png"
-                style="width:30%; height:auto; text-align:center">
-                </a>
-            <p style="text-transform: uppercase;"> <strong> Ustem Foundation</strong> </p>
 
-            <br>
-            
-        </div>
+        <a href="https://firstrobotics.kz/first-kaz" class="partner-logo">
+        <img src="imgs/ustemLogoBlue.png">
+        <p "> Ustem Foundation </p>
+        </a>
+     
     </div>
 
     
     <!-- FOOTER -->
     <footer id="footer">
         <br>
-        <img src="https://cdn.cookielaw.org/logos/a810c6a9-5986-41f3-b636-8944508580bc/137bbdcc-0f94-4459-a1f3-9c448fa6e7f1/efa1240a-7a30-46bc-b2ef-17d3f26df5f2/codedotorg.png" alt="hoc-Icon" class="header-icon">
         <img src="https://hourofcode.com/us/en/images/hour-of-code-logo.png" alt="hoc-Icon" class="header-icon">
         <img src="imgs/ustemLogo.png" alt="hoc-Icon" class="header-icon">
         <p> <strong> hour of code | Kazakhstan | 2023</strong></p>

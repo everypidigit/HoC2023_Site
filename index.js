@@ -3,7 +3,6 @@ const bodyParser = require('body-parser');
 const fs = require('fs');
 const path = require('path');
 const readline = require('readline');
-
 const app = express();
 const port = 3000;
 
@@ -13,7 +12,7 @@ app.use(express.static('public'));
 const csvFilePath = path.join(__dirname, 'users.csv');
 
 // Initialize counter based on existing entries in users.csv
-let userCounter = 0;
+let userCounter = 0;    
 
 // Read existing entries in users.csv to initialize the counter
 const rl = readline.createInterface({
@@ -31,10 +30,10 @@ rl.on('close', () => {
 });
 
 app.post('/register', async (req, res) => {
-    const { username, email, city } = req.body;
+    const { username, email, city, region, role, language, gender, age, school } = req.body;
 
     // Format data as CSV
-    const userData = `${username},${email},${city}\n`;
+    const userData = `${username},${email},${city}, ${region}, ${role}, ${language}, ${gender}, ${age}, ${school}\n`;
 
     // Save data to CSV file
     fs.appendFile(csvFilePath, userData, (err) => {

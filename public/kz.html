@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="stlz.css">
     <title> Басты бет | Код Сағаты Қазақстан </title>
     <link rel="icon" href="https://hourofcode.com/us/en/images/hour-of-code-logo.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,11 +16,6 @@
     <!-- HEADER + NAV -->
     <header>
         <div>
-            <a href="https://hourofcode.com/us">
-            <img 
-            src="https://cdn.cookielaw.org/logos/a810c6a9-5986-41f3-b636-8944508580bc/137bbdcc-0f94-4459-a1f3-9c448fa6e7f1/efa1240a-7a30-46bc-b2ef-17d3f26df5f2/codedotorg.png"
-            alt="hoc-Icon" class="header-icon">
-            </a>
 
             <a href="https://hourofcode.com/us">
             <img src="https://hourofcode.com/us/en/images/hour-of-code-logo.png" alt="hoc-Icon" class="header-icon">
@@ -31,7 +26,7 @@
             </a>
         </div>
         <div>
-            <nav id="nav" style="border:3px solid #1bacbb;">
+            <nav id="nav">
                 <a href="#hero">Басты</a>
                 <a href="#media">Медия</a>
                 <a href="#contacts">Контактілер</a>
@@ -49,7 +44,7 @@
     <div class="row" id="hero" >
         <div class="column-hero-image" 
         style="background-color:#dedede; width:100%">
-            <img src="imgs/heroImg.png" style="opacity: 90%; border: 1px solid black;">
+            <img src="imgs/heroImg.png">
             <div class="column-hero-text">
                 <p>
                 <h1 style="text-transform: uppercase;"><strong>Код Сағатына қош келдіңіз!</strong>!</h1>
@@ -60,34 +55,38 @@
                 </p>
 
                 <p>
-                    <div class="container">
-                        <form id="registrationForm" action="/register" method="post">
-                            <label for="username">Username:</label>
-                            <input type="text" id="username" name="username" required>
-                
-                            <label for="email">Email:</label>
-                            <input type="email" id="email" name="email" required>
-                
-                            <label for="password">Password:</label>
-                            <input type="password" id="password" name="password" required>
-                
-                            <button type="submit">Register</button>
-                        </form>
-                    </div>
-                
-                    <div class="counter-container">
-                        <h2>Number of Registered Users:</h2>
-                        <div id="userCounter">Loading...</div>
-                    </div>
-                
-                    <!-- Include jQuery -->
-                    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-                    <!-- Include your script.js file -->
-                    <script src="script.js"></script>
-                </p>
+                <div class="counter-container">
+                    <div id="userCounter" style="color: #515151; font-size: 50px;"> <h1>жүктеу</h1></div>
+                    <h2>адам тіркелді</h2>
+
+                    <button class="button-30" id="registerButton">тіркелу</button>
+                </div>
+
+                </p> 
             </div>
         </div>   
     </div>
+
+    <!-- REGISTRATION FORM -->
+    <div id="registrationPopup" class="popup">
+        <div class="container">
+            <form id="registrationForm" action="/register" method="post">
+                <label for="username">Есім:</label>
+                <input type="text" id="username" name="username" required>
+
+                <label for="email">Пошта:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="city">Қала:</label>
+                <input type="city" id="city" name="city" required>
+
+                <button type="submit" id="submitRegistration"class="button-6">Тіркелу</button>
+            </form>
+            <button id="closePopup" class="button-6">Жабу</button>
+        </div>
+    </div>
+
+
 
     <!-- INFO SECTION -->
     <div class="row-info" id="info"  id="info">
@@ -232,11 +231,17 @@
     <!-- FOOTER -->
     <footer id="footer">
         <br>
-        <img src="https://cdn.cookielaw.org/logos/a810c6a9-5986-41f3-b636-8944508580bc/137bbdcc-0f94-4459-a1f3-9c448fa6e7f1/efa1240a-7a30-46bc-b2ef-17d3f26df5f2/codedotorg.png" alt="hoc-Icon" class="header-icon">
         <img src="https://hourofcode.com/us/en/images/hour-of-code-logo.png" alt="hoc-Icon" class="header-icon">
         <img src="imgs/ustemLogo.png" alt="hoc-Icon" class="header-icon">
         <p> <strong> hour of code | Қазақстан | 2023 </strong></p>
 	</footer>
+
+
+
+    <!-- Include jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <!-- Include your script.js file -->
+    <script src="script.js"></script>
 
 </body>
 

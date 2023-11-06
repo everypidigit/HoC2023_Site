@@ -31,7 +31,13 @@ $(document).ready(function () {
         const formData = {
             username: $('#username').val(),
             email: $('#email').val(),
-            city: $('#city').val()
+            city: $('#city').val(),
+            region: $('#region').val(),
+            role: $('#role').val(),
+            language: $('#language').val(),
+            gender: $('#gender').val(),
+            age: $('#age').val(),
+            school: $('#school').val(),
         };
 
         // Send data to server
