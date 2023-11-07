@@ -9,26 +9,23 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
-  </head>
 </head>
+<!-- </head> -->
 
 <body>
     <!-- HEADER + NAV -->
-    <header>
-        <div>
-            <a href="https://hourofcode.com/us">
-            <img src="https://hourofcode.com/us/en/images/hour-of-code-logo.png" alt="hoc-Icon" class="header-icon">
-            </a>
 
-            <!-- <a href="https://firstrobotics.kz/first-kaz">
-                <img src="imgs/ustemLogo.png" alt="ustemLogo" class="header-icon">
-            </a> -->
+    <header>
+        <div class="header-logos">
+            <a href="https://hourofcode.com/us">
+                <img src="https://hourofcode.com/us/en/images/hour-of-code-logo.png" alt="hoc-Icon" class="header-icon">
+            </a>
 
             <a href="https://firstrobotics.kz/first-kaz">
                 <img src="imgs/ustemLogoBlack.png" alt="ustemLogoBlack" class="header-icon-ustem-long">
             </a>
         </div>
-        <div>
+        <div class="nav-div">
             <nav id="nav">
                 <ul>
                     <li><a href="#hero">главная</a></li>
@@ -43,6 +40,12 @@
             <a href="en.html" class="language-link"> eng </a>
             <a href="index.html" class="language-link"> рус </a>
         </div>
+
+        <div class="burger-menu" id="burger-menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
     </header>
 
     <!-- HERO SECTION -->
@@ -53,11 +56,7 @@
                 <p>
                 <h1 style="text-transform: uppercase;"><strong>Добро пожаловать на Час Кода</strong>!</h1>
                 <h3 style="text-transform: uppercase;">задания будут доступны в ноябре</h3>
-
-                <!-- REGISTRATION TRIGGER BUTTON -->
-                <!-- <button id="registerButton">зарегистрироваться</button> -->
   
-
                 </p>
 
                 <p>
@@ -110,8 +109,8 @@
                 <input type="school" id="school" name="school" required>
 
                 <button type="submit" id="submitRegistration" class="button-6">Зарегистрироваться</button>
+                <button id="closePopup" class="button-6">Закрыть</button>
             </form>
-            <button id="closePopup" class="button-6">Закрыть</button>
         </div>
     </div>
 
@@ -187,31 +186,121 @@
 
         <div class="column-organizer">
             <img src="imgs/daniil-min.jpg">
-            <p> <strong>Даниил</strong></p>
+            <p> <strong>Даниил Филимонов</strong></p>
             <p> Операционный директор,
                 <br>
                 <em>
-                    daniil@ustemrobotics.kz</em>
+                    daniil@ustemrobotics.kz
+                    <br>
+                    +77064004180</em>
             </p>
         </div>
         
         <div class="column-organizer">
             <img src="imgs/zhanna-min.jpg">
-            <p><strong>Жанна</strong></p>
-            <p> Главный организатор, 
+            <p><strong>Жанна Цой</strong></p>
+            <p> Главный организатор 
                 <br>
                 <em>
-                    zhanna@ustemrobotics.kz</em>
+                    zhanna@ustemrobotics.kz
+                    <br>
+                    <!-- put phone number -->
+                    </em>
             </p>
         </div>
         <div class="column-organizer">
             <img src="imgs/Konstantin-min.jpg">
-            <p> <strong>Константин</strong> </p>
+            <p> <strong>Константин Свищёв</strong></p>
             <p> Операционный директор,
                 <br>
                 <em>
-                    konstantin@ustemrobotics.kz</em>  
+                    konstantin@ustemrobotics.kz
+                    <br>
+                    <!-- put phone number -->
+                    </em>  
             </p>
+        </div>
+
+    </div>
+    <div class="row-organizers">
+
+        <div class="column-organizer">
+            <p> <strong>Джамиля Рахимжанова</strong></p>
+            <p> Координатор в г.Астана
+                <br>
+                <em>
+                    jamilya@ustemrobotics.kz
+                    <br>
+                    +77066451210
+                    </em>
+            </p>
+        </div>
+        
+        <div class="column-organizer">
+            <p><strong>Даурен Жетен</strong></p>
+            <p> Координатор в г.Алматы 
+                <br>
+                <em>
+                    dauren@ustemrobotics.kz
+                    <br>
+                    +77710566161
+                    </em>
+            </p>
+        </div>
+        <div class="column-organizer">
+            <p> <strong>Абзал Алибеков</strong> </p>
+            <p> Координатор в г.Шымкент
+                <br>
+                <em>
+                    abzal@ustemrobotics.kz
+                    <br>
+                    +77072450495
+                    </em>  
+            </p>
+        </div>
+
+    </div>
+    <div class="row-organizers">
+
+        <div class="column-organizer">
+            <p><strong>Адема Батырбаева</strong></p>
+            <p> Координатор в регионах 
+                <br>
+                <em>
+                    adema@ustemrobotics.kz
+                    <br>
+                    +77770413431
+                    </em>
+            </p>
+        </div>
+        
+        <div class="column-organizer">
+        
+            <p> <strong>Маргулан Муптеке</strong></p>
+            <p> Координатор волонтеров
+                <br>
+                <em>
+                    margulan@ustemrobotics.kz
+                    <br>
+                    +77783940312</em>
+            </p>
+        </div>
+        <!-- <div class="column-organizer">
+        </div> -->
+
+        <div class="column-organizer">
+        
+            <p> <strong>Данияр Какимбеков</strong></p>
+            <p> Техническая поддержка
+                <br>
+                <em>
+                    daniyar@ustemrobotics.kz
+                    <br>
+                    <!-- maybe put phone number -->
+                    </em>
+            </p>
+        </div>
+        <div class="column-organizer">
         </div>
 
     </div>
@@ -221,28 +310,28 @@
     <h1 style="text-transform: uppercase;text-align: centered;"> наши партнёры</h1>
     <div class="partners" id="partners">
         <a href="#hero" class="partner-logo">
-        <img src="imgs/color-mark-logo-min.png" >
-        <p> Kerneu</p>
+            <img src="imgs/color-mark-logo-min.png" >
+            <p> Kerneu</p>
         </a>
 
 
-        <a href="https://firstrobotics.kz/" class="partner-logo">
-        <img src="imgs/FIRST_Vertical_RGB-min.png">
-        <p > First </p>
+        <a href="https://firstrobotics.kz/" class="partner-logo-first">
+            <img src="imgs/FIRST_Vertical_RGB-min.png">
+            <p > First </p>
         </a>
 
 
 
         <a href="https://steptoenglish.org/about" class="partner-logo">
-        <img src="imgs/stepLogo-min.png">
-        <p "> step</p>
+            <img src="imgs/stepLogo-min.png">
+            <p "> step</p>
         </a>
        
 
 
         <a href="https://firstrobotics.kz/first-kaz" class="partner-logo">
-        <img src="imgs/ustemLogoBlue.png">
-        <p "> Ustem Foundation </p>
+            <img src="imgs/ustemLogoBlue.png">
+            <p "> Ustem Foundation </p>
         </a>
      
     </div>

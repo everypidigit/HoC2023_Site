@@ -12,7 +12,11 @@ app.use(express.static('public'));
 const csvFilePath = path.join(__dirname, 'users.csv');
 
 // Initialize counter based on existing entries in users.csv
-let userCounter = 0;    
+let userCounter = 0;
+
+// Queue to manage simultaneous requests
+const requestQueue = [];
+let isProcessing = false;
 
 // Read existing entries in users.csv to initialize the counter
 const rl = readline.createInterface({
@@ -20,7 +24,7 @@ const rl = readline.createInterface({
     crlfDelay: Infinity,
 });
 
-rl.on('line', (line) => {
+rl.on('line', () => {
     // Increment the counter for each line (assuming each line represents a user)
     userCounter++;
 });
@@ -33,21 +37,46 @@ app.post('/register', async (req, res) => {
     const { username, email, city, region, role, language, gender, age, school } = req.body;
 
     // Format data as CSV
-    const userData = `${username},${email},${city}, ${region}, ${role}, ${language}, ${gender}, ${age}, ${school}\n`;
+    const userData = `${username},${email},${city},${region},${role},${language},${gender},${age},${school}\n`;
+
+    // Enqueue the request
+    requestQueue.push({ userData, res });
+
+    // Process the queue if not already processing
+    processQueue();
+});
+
+function processQueue() {
+    // If already processing or the queue is empty, return
+    if (isProcessing || requestQueue.length === 0) {
+        return;
+    }
+
+    // Mark as processing
+    isProcessing = true;
+
+    // Dequeue the request
+    const { userData, res } = requestQueue.shift();
 
     // Save data to CSV file
     fs.appendFile(csvFilePath, userData, (err) => {
-        if (err) throw err;
-        console.log('saved to users.csv');
+        if (err) {
+            console.error('Error saving data:', err);
+            res.status(500).send('Error saving data');
+        } else {
+            console.log('Data saved to users.csv');
+            res.redirect('/index.html');
+        }
 
-        // Increment the counter
+        // Mark as not processing
+        isProcessing = false;
+
+        // Process the next request in the queue
+        processQueue();
+
         userCounter++;
-
-        // Send a response
-        res.redirect('/index.html');
     });
-
-});
+}
 
 // Counter endpoint
 app.get('/counter', (req, res) => {

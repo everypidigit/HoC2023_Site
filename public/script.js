@@ -13,7 +13,16 @@ $(document).ready(function () {
     updateCounter();
 
     // Set interval to update the counter every 5 seconds (adjust as needed)
-    setInterval(updateCounter, 5000);
+    setInterval(updateCounter, 2000);
+
+    document.getElementById('burger-menu').addEventListener('click', function () {
+        var nav = document.getElementById('nav');
+        if (nav.style.display === 'flex') {
+            nav.style.display = 'none';
+        } else {
+            nav.style.display = 'flex';
+        }
+    });
 
     $('#registerButton').click(function () {
         $('#registrationPopup').fadeIn();
