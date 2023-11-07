@@ -49,7 +49,7 @@ a {
   background: #fff;
   border-radius: 8px;
   z-index: 100000;
-  border: 2px solid #000000;
+  border: 2px solid #000a75;
 }
 
   /* .container {
@@ -177,13 +177,13 @@ div {
     text-align: center;
 }
 
-.row {
+/* .row {
   display: flex;
   flex-wrap: wrap;
   color: #1bacbb;
   width: 100%;
   height: 100%;
-}
+} */
 
 .row-media {
   display: flex;
@@ -284,11 +284,6 @@ header {
     border-radius: 15px; 
   }
   
-  .row-organizers {
-    display: flex;
-    flex-wrap: wrap;
-    height: auto;
-  }
   
   .column-organizer {
     flex: 30%;
@@ -478,18 +473,29 @@ header {
     .column-info-text {
       flex:50%;
       text-align: justify;
-      padding-left: 5rem;
-      padding-right: 4rem;
-      font-size: 1.7vw;
+      padding-left: 12vw;
+      padding-right: 3rem;
+      font-size: 1.5vw;
     }
   
     .column-info-stats {
       position: relative;
       flex:22.5%;
-      padding-right: 5rem;
-      padding-top: 5rem;
+      padding-right: 12vw;
+      padding-top: 2vw;
+      font-size: 1.5vw;
     }
-  
+
+    .row {
+      margin-left: 10vw;
+      margin-right: 10vw;
+      display: flex;
+      flex-wrap: wrap;
+      color: #1bacbb;
+      max-width: 100%;
+      max-height: 100%;
+    }
+    
     .column-image {
       flex: 40%;
     }
@@ -509,12 +515,27 @@ header {
       height: 100%;
       width: 100%
     }
+
+    .row-organizers {
+      margin-left: 6vw;
+      margin-right: 6vw;
+      display: flex;
+      flex-wrap: wrap;
+      height: auto;
+    }
   
     .language-link {
       margin-left: 0.5vw; 
       padding: 10px; 
       font-size: 15px; 
       transition: background-color 0.3s;
+    }
+
+    .partners {
+      margin-top: 7vw;
+      margin-left: 10vw;
+      margin-right: 10vw;
+      margin-bottom: 7vw;
     }
 
     .partner-logo img {
@@ -618,18 +639,28 @@ header {
       /* align-items: center; */
     }
 
+    .row-organizers {
+      margin-left: 0;
+      margin-right: 0;
+      display: flex;
+      flex-wrap: wrap;
+      height: 100%;
+    }
+
     .column-organizer img {
       height:auto;
       width: 50%;
     }
   
     .row {
+      margin-left: 1vw;
+      margin-right: 1vw;
+      display: flex;
       flex-direction: column;
-      /* padding: 10px; */
-    }
-  
-    .column-image {
-      padding: 3rem;
+      flex-wrap: wrap;
+      color: #1bacbb;
+      max-width: 100%;
+      max-height: 100%;
     }
   
     .column-hero-image {
@@ -651,7 +682,7 @@ header {
     }
   
     .column-image img {
-      height:10%;
+      /* height:1000%; */
       width:100%;
     }
   
