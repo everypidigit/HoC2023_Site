@@ -40,7 +40,6 @@ $(document).ready(function () {
         const formData = {
             username: $('#username').val(),
             email: $('#email').val(),
-            city: $('#city').val(),
             region: $('#region').val(),
             role: $('#role').val(),
             language: $('#language').val(),

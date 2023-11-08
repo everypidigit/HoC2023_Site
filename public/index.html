@@ -83,24 +83,61 @@
                 <label for="email">Почта:</label>
                 <input type="email" id="email" name="email" required>
 
-                <!-- dropdown -->
+                <!-- dropdown
                 <label for="city">Город:</label>
-                <input type="city" id="city" name="city" required>
+                <input type="city" id="city" name="city" required> -->
 
                 <!-- dropdown -->
-                <label for="region">Область:</label>
-                <input type="region" id="region" name="region" required>
+                <label for="region">Город/Область:</label>
+                <select id="region" name="region" required>
+                    <option value="" disabled selected></option>
+                    <option value="Алматинская">Алматинская</option>
+                    <option value="Кызылординская">Кызылординская</option>
+                    <option value="Алматы">Алматы</option>
+                    <option value="Актюбинская">Актюбинская</option>
+                    <option value="Акмолинская">Акмолинская</option>
+                    <option value="Павлодарская">Павлодарская</option>
+                    <option value="Карагандинская">Карагандинская</option>
+                    <option value="Астана">Астана</option>
+                    <option value="Восточно-Казахстанская">Восточно-Казахстанская</option>
+                    <option value="Атырауская">Атырауская</option>
+                    <option value="Южно-Казахстанская">Южно-Казахстанская</option>
+                    <option value="Мангистауская">Мангистауская</option>
+                    <option value="Костанайская">Костанайская</option>
+                    <option value="Западно-Казахстанская">Западно-Казахстанская</option>
+                    <option value="Жетысуская">Жетысуская</option>
+                    <option value="Жамбылская">Жамбылская</option>
+                    <option value="Северо-Казахстанская">Северо-Казахстанская</option>
+                    <option value="Абайская">Абайская</option>
+                    <option value="Туркестанская">Туркестанская</option>
+                    <option value="Улытауская">Улытауская</option>
+                    <option value="Шымкент">Шымкент</option>
+                </select>
 
+                <!-- Dropdown for "role" -->
                 <label for="role">Роль:</label>
-                <input type="role" id="role" name="role" required>
+                <select id="role" name="role" required>
+                    <option value="" disabled selected></option>
+                    <option value="teacher">Учитель</option>
+                    <option value="student">Студент</option>
+                </select>
 
-                <!-- dropdown -->
+                <!-- Dropdown for "language" -->
                 <label for="language">Язык:</label>
-                <input type="language" id="language" name="language" required>
+                <select id="language" name="language" required>
+                    <option value="" disabled selected></option>
+                    <option value="russian">Русский</option>
+                    <option value="kazakh">Қазақша</option>
+                    <option value="english">English</option>
+                </select>
 
-                <!-- dropdown -->
+                <!-- Dropdown for "gender" -->
                 <label for="gender">Пол:</label>
-                <input type="gender" id="gender" name="gender" required>
+                <select id="gender" name="gender" required>
+                    <option value="" disabled selected></option>
+                    <option value="male">Мужской</option>
+                    <option value="female">Женский</option>
+                </select>
 
                 <label for="age">Возраст:</label>
                 <input type="age" id="age" name="age" required>
@@ -108,7 +145,7 @@
                 <label for="school">Учебное заведение:</label>
                 <input type="school" id="school" name="school" required>
 
-                <button type="submit" id="submitRegistration" class="button-6">Зарегистрироваться</button>
+                <button type="submit" id="submitRegistration" class="button-6" style="margin-top: 20px;">Отправить</button>
                 <button id="closePopup" class="button-6">Закрыть</button>
             </form>
         </div>
