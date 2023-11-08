@@ -243,6 +243,7 @@ header {
   align-items: center;
 }
 
+
 .partners {
   display: flex;
   flex-direction: row;
@@ -449,13 +450,19 @@ footer {
   .column-hero-text h1 {
     text-transform: uppercase; 
     opacity: 100%;
-    font-size: 2rem;
+    font-size: 2vw;
+  }
+
+  .column-hero-text h2 {
+
+    font-size: 1.75vw;
+
   }
 
   .column-hero-text h3 {
     text-transform: lowercase; 
     opacity: 100%;
-    font-size: 1rem;
+    font-size: 1vw;
   }
 
   .column {
@@ -631,14 +638,13 @@ footer {
     color: #36395A;
     cursor: pointer;
     display: inline-flex;
-    font-family: "JetBrains Mono",monospace;
-    height: 4vw;
+    height: 5vw;
     justify-content: center;
     line-height: 1;
     list-style: none;
     overflow: hidden;
-    padding-left: 1.5vw;
-    padding-right: 1.5vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
     position: relative;
     text-align: left;
     text-decoration: none;
@@ -648,7 +654,7 @@ footer {
     touch-action: manipulation;
     white-space: nowrap;
     will-change: box-shadow,transform;
-    font-size: 2vw;
+    font-size: 3.5vw;
   }
   
   .row-info {
@@ -696,18 +702,25 @@ footer {
 
   /* make scalable */
   .column-hero-text {
-    font-size: 0.1vw;
+    font-size: 2vw;
     width: 100%;
     opacity: 90%;
     border-radius: 0px;
   }
 
   .column-hero-text h1 {
-    font-size: 3vw;
+    font-size: 5vw;
   }
 
+  .column-hero-text h2 {
+
+    font-size: 5vw;
+
+  }
+  
+
   .column-hero-text h3 {
-    font-size: 2vw;
+    font-size: 4vw;
   }
 
   .column-image img {
@@ -753,8 +766,8 @@ footer {
 
   .column-info-stats {
       width: 100%;
-      font-size: 5vw;
-      padding: 3rem;
+      /* font-size: 5vw; */
+      padding: 1vw;
       text-transform: uppercase;
   }
   
@@ -764,7 +777,7 @@ footer {
   
   .column-organizer p {
       font-size: 2.5vw;
-      text-transform: uppercase;
+      /* text-transform: uppercase; */
   }
 
   .language-selector {
@@ -801,5 +814,30 @@ footer {
   #registrationForm select, input {
     width: 70px;
   }
+
+  .user-counter {
+    font-size: 10vw;
+  
+  }
+
+
+  .column-info-text h1 {
+
+    font-size: 5vw;
+  }
+  
+  .column-info-text p {
+  
+    font-size: 4vw;
+  
+  
+  }
+
+  .column-info-stats p{
+
+    font-size: 3vw;
+  }
+
+
   
 }
