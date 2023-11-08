@@ -538,6 +538,8 @@ footer {
     transition: background-color 0.3s;
   }
 
+
+  /* think about changing the margin on the bottom */
   .partners {
     margin-top: 7vw;
     margin-left: 10vw;
