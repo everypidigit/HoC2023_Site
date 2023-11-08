@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stlz_alternative.css">
-    <title> Главная | Час Кода Казахстан </title>
+    <title> Басты бет | Код Сағаты Қазақстан </title>
     <link rel="icon" href="https://hourofcode.com/us/en/images/hour-of-code-logo.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,10 +28,10 @@
         <div class="nav-div">
             <nav id="nav">
                 <ul>
-                    <li><a href="#hero">главная</a></li>
-                    <li><a href="#media">отчёт</a></li>
-                    <li><a href="#contacts">контакты</a></li>
-                    <li><a href="#partners">партнёры</a></li>
+                    <li><a href="#hero">басты</a></li>
+                    <li><a href="#media">медия</a></li>
+                    <li><a href="#contacts">контактілер</a></li>
+                    <li><a href="#partners">серіктестер</a></li>
                 </ul>
             </nav>
         </div>
@@ -54,18 +54,18 @@
             <img src="imgs/heroClean.png">
             <div class="column-hero-text">
                 <p>
-                <h1 style="text-transform: uppercase;"><strong>Добро пожаловать на Час Кода</strong>!</h1>
-                <h3 style="text-transform: uppercase;">задания будут доступны в ноябре</h3>
+                <h1 style="text-transform: uppercase;"><strong>Код Сағатына қош келдіңіз!</strong>!</h1>
+                <h3 style="text-transform: uppercase;">жаттығулар қарашада дайын болады</h3>
   
                 </p>
 
                 <p>
                     <div class="counter-container">
                         <!-- <h2>уже</h2> -->
-                        <div class="user-counter" id="userCounter">загрузка... </div>
-                                                               <h2>участников  </h2>
+                        <div class="user-counter" id="userCounter">жүктеу... </div>
+                                                               <h2>адам тіркелді  </h2>
                         </div>
-                    <button class="button-30" id="registerButton">зарегистрироваться</button>
+                    <button class="button-30" id="registerButton">тіркелу</button>
 
                 </p>
             </div>
@@ -77,53 +77,47 @@
     <div id="registrationPopup" class="popup">
         <div class="container">
             <form id="registrationForm" action="/register" method="post">
-                <label for="username">Имя:</label>
+
+                <label for="username">Есім:</label>
                 <input type="text" id="username" name="username" required>
 
-                <label for="email">Почта:</label>
+                <label for="email">Пошта:</label>
                 <input type="email" id="email" name="email" required>
 
-                <!-- dropdown
-                <label for="city">Город:</label>
-                <input type="city" id="city" name="city" required> -->
-
-                <!-- dropdown -->
-                <label for="region">Город/Область:</label>
+                <label for="region">Қала/:</label>
                 <select id="region" name="region" required>
                     <option value="" disabled selected></option>
-                    <option value="Алматинская">Алматинская</option>
-                    <option value="Кызылординская">Кызылординская</option>
-                    <option value="Алматы">Алматы</option>
-                    <option value="Актюбинская">Актюбинская</option>
-                    <option value="Акмолинская">Акмолинская</option>
-                    <option value="Павлодарская">Павлодарская</option>
-                    <option value="Карагандинская">Карагандинская</option>
-                    <option value="Астана">Астана</option>
-                    <option value="Восточно-Казахстанская">Восточно-Казахстанская</option>
-                    <option value="Атырауская">Атырауская</option>
-                    <option value="Южно-Казахстанская">Южно-Казахстанская</option>
-                    <option value="Мангистауская">Мангистауская</option>
-                    <option value="Костанайская">Костанайская</option>
-                    <option value="Западно-Казахстанская">Западно-Казахстанская</option>
-                    <option value="Жетысуская">Жетысуская</option>
+                    <option value="Алматинская">Алматы облысы</option>
+                    <option value="Кызылординская">Қызылорда облысы</option>
+                    <option value="Алматы">Алматы қаласы</option>
+                    <option value="Актюбинская">Ақтөбе облысы</option>
+                    <option value="Акмолинская">Ақмола облысы</option>
+                    <option value="Павлодарская">Павлодар облысы</option>
+                    <option value="Карагандинская">Қарағанды облысы</option>
+                    <option value="Астана">Астана қаласы</option>
+                    <option value="Восточно-Казахстанская">Шығыс Қазақстан</option>
+                    <option value="Атырауская">Атырау облысы</option>
+                    <option value="Южно-Казахстанская"></option>
+                    <option value="Мангистауская">Маңғыстау облысы</option>
+                    <option value="Костанайская">Қостанай облысы</option>
+                    <option value="Западно-Казахстанская">Оңтүстік Қазақстан</option>
+                    <option value="Жетысуская">Жетісу облысы</option>
                     <option value="Жамбылская">Жамбылская</option>
-                    <option value="Северо-Казахстанская">Северо-Казахстанская</option>
-                    <option value="Абайская">Абайская</option>
-                    <option value="Туркестанская">Туркестанская</option>
-                    <option value="Улытауская">Улытауская</option>
-                    <option value="Шымкент">Шымкент</option>
+                    <option value="Северо-Казахстанская">Солтүстік Қазақстан</option>
+                    <option value="Абайская">Абай облысы</option>
+                    <option value="Туркестанская">Түркістан облысы</option>
+                    <option value="Улытауская">Ұлытау облысы</option>
+                    <option value="Шымкент">Шымкент қаласы</option>
                 </select>
 
-                <!-- Dropdown for "role" -->
-                <label for="role">Роль:</label>
+                <label for="role">Рөл:</label>
                 <select id="role" name="role" required>
                     <option value="" disabled selected></option>
-                    <option value="teacher">Учитель</option>
-                    <option value="student">Студент</option>
+                    <option value="teacher">Мұғалім</option>
+                    <option value="student">Оқушы</option>
                 </select>
 
-                <!-- Dropdown for "language" -->
-                <label for="language">Язык:</label>
+                <label for="language">Тіл:</label>
                 <select id="language" name="language" required>
                     <option value="" disabled selected></option>
                     <option value="russian">Русский</option>
@@ -131,22 +125,22 @@
                     <option value="english">English</option>
                 </select>
 
-                <!-- Dropdown for "gender" -->
-                <label for="gender">Пол:</label>
+                <label for="gender">Жынысы:</label>
                 <select id="gender" name="gender" required>
                     <option value="" disabled selected></option>
-                    <option value="male">Мужской</option>
-                    <option value="female">Женский</option>
+                    <option value="male">Еркек</option>
+                    <option value="female">Әйел</option>
                 </select>
 
-                <label for="age">Возраст:</label>
+                <label for="age">Жас:</label>
                 <input type="age" id="age" name="age" required>
 
-                <label for="school">Учебное заведение:</label>
+                <label for="school">Мектеп:</label>
                 <input type="school" id="school" name="school" required>
 
-                <button type="submit" id="submitRegistration" class="button-6" style="margin-top: 20px;">Отправить</button>
-                <button id="closePopup" class="button-6">Закрыть</button>
+                <button type="submit" id="submitRegistration" class="button-6" style="margin-top: 20px;">Жіберу</button>
+                <button id="closePopup" class="button-6">Жабу</button>
+
             </form>
         </div>
     </div>
@@ -155,46 +149,37 @@
     <!-- INFO SECTION -->
     <div class="row-info" id="info"  id="info">
         <div class="column-info-text">
-            <h1 style="text-transform: uppercase;text-align: centered;">Что такое Час Кода?</h1>
+            <h1 style="text-transform: uppercase;text-align: centered;">Код сағаты денег не?</h1>
             <p>
-            Час кода - это глобальное движение, 
-            которое охватывает несколько миллионов 
-            студентов и учеников из более 180 стран. 
-            Каждый человек может стать как 
-            организатором Часа Кода, так и его 
-            участником. Задача Часа Кода - 
-            познакомить участников с 
-            программированием в простом и 
-            увлекательном виде и заложить в них 
-            интерес к точным наукам.
-            Заполните анкету на сайте - вы сможете 
-            пройти небольшой урок, рассчитанный на 
-            45 минут самостоятельное прохождение. 
-            Ниже вы также можете ознакомиться с 
-            материалами для преподавателей и 
-            расписанием мероприятий Недели 
-            программирования.
+                Код сағаты – 180-нен астам елден келген бірнеше миллион студенттер мен оқушыларды қамтитын жаһандық қозғалыс. 
+                Әрбір адам Код сағатының ұйымдастырушысы да, оның қатысушысы да бола алады.
+
+                Код сағатының мақсаты – қатысушыларды қарапайым және қызықты түрде бағдарламалаумен таныстыру және олардың нақты ғылымдарға деген қызығушылығын ояту.
+                
+                Сайттағы сауалнаманы толтырыңыз – сіз 45 минутқа арналған қысқаша сабақты өз бетіңізше ала аласыз.
+                
+                Төменде сіз мұғалімдерге арналған материалдарды
             </p>
         </div>
         <div class="column-info-stats">
         <br>
             <img src="https://cdn-icons-png.flaticon.com/512/2451/2451548.png" style="width:50%; height:auto; text-align:center">
-            <p> 20 регионов </p>
+            <p> 20 аймақ </p>
             <img src="https://static.thenounproject.com/png/3390875-200.png" style="width:50%; height:auto; text-align:center">
-            <p> 102000 участников </p>
+            <p> 102000 қатысушы </p>
         </div>
         <div class="column-info-stats">
         <br>
             <img src="https://static.thenounproject.com/png/1327868-200.png" style="width:50%; height:auto; text-align:center">
-            <p> 57000 девочек </p>
+            <p> 57000 қыз </p>
             <img src="https://cdn-icons-png.flaticon.com/512/3870/3870231.png" style="width:50%; height:auto; text-align:center">
-            <p> 45000 мальчиков </p>
+            <p> 45000 ұл </p>
         </div>
     </div>
 
 
     <!-- MEDIA SECTION -->
-    <h1 style="text-transform: uppercase; text-align: centered;"> Медиа: </h1>
+    <h1 style="text-transform: uppercase; text-align: centered;"> Медия: </h1>
     <div class="row" id="media">
         <div class="column-image">
             <img src="imgs/media1.jpg">
@@ -219,13 +204,13 @@
 
 
     <!-- ORGANIZERS SECTION -->
-    <h1 style="text-align:centered; text-transform: uppercase; font-size: 4vw;" > Организаторы: </h1>
+    <h1 style="text-align:centered; text-transform: uppercase; font-size: 4vw;" > Контактілер: </h1>
     <div class="row-organizers" id="contacts">
 
         <div class="column-organizer">
             <img src="imgs/daniil-min.jpg">
             <p> <strong>Даниил Филимонов</strong></p>
-            <p> Операционный директор,
+            <p> Операциялық директор,
                 <br>
                 <em>
                     daniil@ustemrobotics.kz
@@ -237,7 +222,7 @@
         <div class="column-organizer">
             <img src="imgs/zhanna-min.jpg">
             <p><strong>Жанна Цой</strong></p>
-            <p> Главный организатор 
+            <p> Басты ұйымдастырушы 
                 <br>
                 <em>
                     zhanna@ustemrobotics.kz
@@ -249,7 +234,7 @@
         <div class="column-organizer">
             <img src="imgs/Konstantin-min.jpg">
             <p> <strong>Константин Свищёв</strong></p>
-            <p> Операционный директор,
+            <p> Операциялық директор
                 <br>
                 <em>
                     konstantin@ustemrobotics.kz
@@ -264,7 +249,7 @@
 
         <div class="column-organizer">
             <p> <strong>Джамиля Рахимжанова</strong></p>
-            <p> Координатор в г.Астана
+            <p> Астана қаласындағы үйлестіруші
                 <br>
                 <em>
                     jamilya@ustemrobotics.kz
@@ -276,7 +261,7 @@
         
         <div class="column-organizer">
             <p><strong>Даурен Жетен</strong></p>
-            <p> Координатор в г.Алматы 
+            <p> Алматы қаласындағы үйлестіруші  
                 <br>
                 <em>
                     dauren@ustemrobotics.kz
@@ -287,7 +272,7 @@
         </div>
         <div class="column-organizer">
             <p> <strong>Абзал Алибеков</strong> </p>
-            <p> Координатор в г.Шымкент
+            <p> Шымкент қаласындағы үйлестіруші
                 <br>
                 <em>
                     abzal@ustemrobotics.kz
@@ -302,7 +287,7 @@
 
         <div class="column-organizer">
             <p><strong>Адема Батырбаева</strong></p>
-            <p> Координатор в регионах 
+            <p> Өңірлерде ұйымдастырушы
                 <br>
                 <em>
                     adema@ustemrobotics.kz
@@ -315,7 +300,7 @@
         <div class="column-organizer">
         
             <p> <strong>Маргулан Муптеке</strong></p>
-            <p> Координатор волонтеров
+            <p> Еріктілер үйлестіруші
                 <br>
                 <em>
                     margulan@ustemrobotics.kz
@@ -323,13 +308,11 @@
                     +77783940312</em>
             </p>
         </div>
-        <!-- <div class="column-organizer">
-        </div> -->
 
         <div class="column-organizer">
         
             <p> <strong>Данияр Какимбеков</strong></p>
-            <p> Техническая поддержка
+            <p> Техникалық көмек
                 <br>
                 <em>
                     daniyar@ustemrobotics.kz
@@ -338,14 +321,12 @@
                     </em>
             </p>
         </div>
-        <div class="column-organizer">
-        </div>
 
     </div>
 
 
     <!-- PARTNERS SECTION -->
-    <h1 style="text-transform: uppercase;text-align: centered; font-size: 4vw;"> наши партнёры</h1>
+    <h1 style="text-transform: uppercase;text-align: centered; font-size: 4vw;"> серіктестер</h1>
     <div class="partners" id="partners">
         <a href="#hero" class="partner-logo">
             <img src="imgs/color-mark-logo-min.png" >
