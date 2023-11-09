@@ -271,7 +271,6 @@ header {
 
 .column-info-stats {
     flex:22.5%;
-    font-size: 100%;
 }
 
 .column-image {
@@ -308,13 +307,15 @@ header {
 }
 
 .language-selector {
+  margin-right: 2vw;
   display: flex;
   width: 10%;
   align-items:flex-end;
-  margin-right: 4vw;
+  
 }
 
 .language-link {
+  font-size: 100vw;
   cursor: pointer;
   text-decoration: none;
   color: #000000;
@@ -496,6 +497,19 @@ footer {
     vw;
   }
 
+  .column-info-text p {
+    font-size: 1.5vw;
+  }
+
+  .column-info-stats p{
+    font-size: 1.5vw;
+  }
+
+  .column-info-text h1 {
+
+    font-size: 2.5vw;
+  }
+
   .row {
     margin-left: 10vw;
     margin-right: 10vw;
@@ -535,9 +549,8 @@ footer {
   }
 
   .language-link {
-    margin-left: 0.5vw; 
-    padding: 10px; 
-    font-size: 15px; 
+    margin-left: 0.75vw; 
+    font-size: 1.5vw; 
     transition: background-color 0.3s;
   }
 
@@ -745,16 +758,14 @@ footer {
   }
 /* make scalable */
   .header-icon {
-    text-decoration: none;
     margin-left: 2vw;
-    width: 3vw;
-    height: 3vw;
+    width: 5vw;
+    height: 5vw;
   }
 /* make scalable */
   .header-icon-ustem-long {
-    width: 10.224vw;
-    height: 3vw;
-    text-decoration: none;
+    width: 17.04vw;
+    height: 5vw;
   }
 
   .column-info-text {
@@ -777,10 +788,10 @@ footer {
   
   .column-organizer p {
       font-size: 2.5vw;
-      /* text-transform: uppercase; */
   }
 
   .language-selector {
+    margin-right: 12vw;
     max-width: 100%;
     display: flex;
     align-items:flex-end;
@@ -789,7 +800,7 @@ footer {
   .language-link {
     max-width: 100%;
     padding: 0vw; 
-    font-size: 2.5vw; 
+    font-size: 4vw; 
     transition: background-color 0.3s;
   }
 
