@@ -286,6 +286,7 @@ header {
   display: flex;
   flex-direction: row;
   align-items: center;
+  height: 50vw
 }
 
 
@@ -325,7 +326,7 @@ header {
 
 .column-image img { 
   text-align:center; 
-  border:1px solid #1bacbb; 
+  border: 2px solid #6a6a6a; 
   border-radius: 15px;
 }
 
@@ -335,7 +336,7 @@ header {
 }
 
 .column-video iframe {
-  border:1px solid #1bacbb; 
+  border: 2px solid #6a6a6a; 
   border-radius: 15px; 
 }
 
@@ -347,7 +348,7 @@ header {
 .column-organizer img {
   height:auto;
   width: 70%;
-  border:1px solid #1bacbb;
+  border: 2px solid #6a6a6a;
   border-radius: 15px;
 }
 
@@ -383,7 +384,6 @@ footer {
   color: #1bacbb;
   text-align: center;
   padding: 1px;
-  text-transform: lowercase;
 }
 
 /* MEDIA TAGS */
@@ -393,10 +393,11 @@ footer {
     text-decoration: none;
     background-color: #ffffff;
     align-items: center;
-    justify-content:space-around;
+    justify-content:center;
     opacity: 100%;
     text-decoration: none;
     padding: 20px;
+    margin: auto;
     display: flex;
     flex-direction: row;
     text-align: center;
@@ -406,28 +407,30 @@ footer {
   .header-logos {
     display: flex;
     flex-direction: row;
+    flex: 22.5%
   }
 
   .header-icon {
     text-decoration: none;
     margin-left: 2vw;
     margin-right: 1vw;
-    width: 30px;
-    height: 30px;
+    width: 3.3vw;
+    height: 3.3vw;
   }
 
   .header-icon-ustem-long {
     text-decoration: none;
     /* margin-left: 2vw; */
-    width: 102.24024px;
-    height: 30px;
+    width: 11.24475vw;
+    height: 3.3vw;
   }
 
   nav {
     flex: 100%;
     width: 100%;
     padding: 0.5vw;
-    margin-right: 600px;
+    margin-right: 45vw;
+    /* margin: auto; */
   }
   
   nav a {
@@ -547,7 +550,14 @@ footer {
   }
 
   .column-info-stats p{
-    font-size: 1.5vw;
+    color: #1bacbb;
+    font-size: 2.2vw;
+  }
+
+  .column-info-stats img {
+    height: 10vw; 
+    width: 10vw; 
+    text-align:center
   }
 
   .column-info-text h1 {
@@ -890,10 +900,14 @@ footer {
   }
 
   .column-info-stats p{
-
     font-size: 3vw;
   }
 
+  .column-info-stats img {
+    width:50%; 
+    height:auto; 
+    text-align:center"
+  }
 
   
 }
