@@ -65,7 +65,7 @@ function processQueue() {
             res.status(500).send('Error saving data');
         } else {
             console.log('Data saved to users.csv');
-            res.redirect('/kaz.html');
+            res.redirect('/index.html');
         }
 
         // Mark as not processing
@@ -84,8 +84,8 @@ app.get('/counter', (req, res) => {
 });
 
 // Redirect route for success
-app.get('/kaz.html', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public', 'kaz.html'));
+app.get('/index.html', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
 app.listen(port, () => {
