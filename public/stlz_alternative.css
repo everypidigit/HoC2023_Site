@@ -229,17 +229,18 @@ opacity: 85%;
 text-align:center;
 }
 
+.section-heading {
+
+  text-align:centered; 
+  text-transform: uppercase; 
+  font-size: 4vw; 
+  margin-top: 8vw;
+
+}
+
 div {
   text-align: center;
 }
-
-/* .row {
-display: flex;
-flex-wrap: wrap;
-color: #1bacbb;
-width: 100%;
-height: 100%;
-} */
 
 .row-media {
   display: flex;
@@ -552,6 +553,7 @@ footer {
   .column-info-stats p{
     color: #1bacbb;
     font-size: 2.2vw;
+    font-weight: 900;
   }
 
   .column-info-stats img {
