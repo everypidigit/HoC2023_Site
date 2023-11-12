@@ -297,8 +297,12 @@ header {
 
 .partner-logo, .partner-logo-first {
   font-weight: 900;
-  text-decoration: underline;
+  /* text-decoration: underline; */
   font-size: 2vw;
+}
+
+.partner-logo-text {
+  text-decoration: underline;
 }
 
 
@@ -870,12 +874,14 @@ footer {
   .partner-logo img {
     width: 45vw;
     height: 45vw;
+    text-decoration: none;
   }
 
   
   .partner-logo-first img {
     width: 78.7985vw;
     height: 45vw;
+    text-decoration: none;
   }
 
 
