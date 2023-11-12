@@ -287,7 +287,7 @@ header {
   display: flex;
   flex-direction: row;
   align-items: center;
-  height: 50vw
+  /* height: 50vw */
 }
 
 
@@ -298,10 +298,12 @@ header {
   justify-content:space-around;
 }
 
-.row-media{
-  display: flex;
-  flex-wrap: wrap;
+.partner-logo, .partner-logo-first {
+  font-weight: 900;
+  text-decoration: underline;
+  font-size: 2vw;
 }
+
 
 .column {
   flex: 25%;
@@ -354,11 +356,12 @@ header {
 }
 
 .language-selector {
-  margin-right: 2vw;
+  /* margin-right: 2vw; */
+  /* margin-left: 5vw; */
+  padding-left: 3vw;
   display: flex;
-  width: 10%;
+  width: 25%;
   align-items:flex-end;
-  
 }
 
 .language-link {
@@ -372,11 +375,6 @@ header {
   background-color: #bbb; 
 }
 
-.row p {
-  position: relative;
-  left: 100px;
-  top: 100px;
-}
 
 footer {
   max-width: 100%;
@@ -408,7 +406,8 @@ footer {
   .header-logos {
     display: flex;
     flex-direction: row;
-    flex: 22.5%
+    flex: 22.5%;
+    width: 25%
   }
 
   .header-icon {
@@ -694,7 +693,7 @@ footer {
   }
   
   .nav-div {
-    width: 10rem;
+    width: 50%;
   }
 
   .button-30 {
@@ -757,12 +756,10 @@ footer {
     max-height: 100%;
   }
 
-  /* make scalable */
   .column-hero-image {
     max-width:100%;
   }
 
-  /* make scalable */
   .column-hero-image img {
     height:180vw; 
     opacity: 100%;
@@ -770,7 +767,6 @@ footer {
     width: 100%;
   }
 
-  /* make scalable */
   .column-hero-text {
     font-size: 2vw;
     width: 100%;
@@ -866,16 +862,23 @@ footer {
     flex-direction: column;
   }
 
-  /* make scalable */
-  .partner-logo img {
-    width: 160px;
-    height: 160px;
+  .partner-logo, .partner-logo-first {
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+    font-size: 5vw;
+    font-weight: 900;
+    text-decoration: underline;
   }
 
-  /* make scalable */
+  .partner-logo img {
+    width: 45vw;
+    height: 45vw;
+  }
+
+  
   .partner-logo-first img {
-    width: 280.176px;
-    height: 160px;
+    width: 78.7985vw;
+    height: 45vw;
   }
 
 
