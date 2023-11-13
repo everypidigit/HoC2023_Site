@@ -34,10 +34,10 @@ rl.on('close', () => {
 });
 
 app.post('/register', async (req, res) => {
-    const { username, email, region, role, language, gender, age, school } = req.body;
+    const { username, email, region, place, role, language, gender, age, school } = req.body;
 
     // Format data as CSV
-    const userData = `${username},${email},${region},${role},${language},${gender},${age},${school}\n`;
+    const userData = `${username},${email},${region}, ${place}, ${role},${language},${gender},${age},${school}\n`;
 
     // Enqueue the request
     requestQueue.push({ userData, res });

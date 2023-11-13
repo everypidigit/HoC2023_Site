@@ -41,6 +41,7 @@ $(document).ready(function () {
             username: $('#username').val(),
             email: $('#email').val(),
             region: $('#region').val(),
+            place: $('#place').val(),
             role: $('#role').val(),
             language: $('#language').val(),
             gender: $('#gender').val(),
