@@ -51,12 +51,14 @@ $(document).ready(function () {
         // Send data to server
         $.ajax({
             type: 'POST',
-            url: '/register', 
+            url: '/register',
             data: formData,
             success: function (response) {
-                console.log(response); 
-                $('#registrationPopup').fadeOut();
-                
+                console.log(response);
+
+                // Hide registration form and show confirmation message
+                $('#registrationForm').hide();
+                $('#confirmationMessage').show();
             },
             error: function (error) {
                 console.error('Error:', error);
@@ -64,4 +66,13 @@ $(document).ready(function () {
         });
     });
 
+    // Close confirmation message
+    $('#closeConfirmation').click(function () {
+        $('#registrationPopup').fadeOut();
+        // Reset form and show form fields
+        $('#registrationForm').trigger('reset').show();
+        $('#confirmationMessage').hide();
+    });
+
 });
+

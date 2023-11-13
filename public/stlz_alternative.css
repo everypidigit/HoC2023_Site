@@ -288,6 +288,11 @@ header {
 }
 
 
+/* .confirmation-message {
+
+} */
+
+
 .partners {
   display: flex;
   flex-direction: row;
