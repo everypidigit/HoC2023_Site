@@ -38,25 +38,27 @@ a {
 
 /* popup */
 .popup {
-display: none;
-position: fixed;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-width: 30vw; 
-height: 500px;
-background: #fff;
-border-radius: 8px;
-z-index: 100000;
-border: 2px solid #000a75;
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30vw; 
+  height: 500px;
+  background: #fff;
+  border-radius: 8px;
+  z-index: 100000;
+  border: 2px solid #000a75;
 }
 
-/* .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #fff;
-} */
+.confirmation-message {
+  color: #1bacbb;
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 form {
   align-items: center;
@@ -68,10 +70,17 @@ form {
   width: 100px;
 }
 
+#registrationForm label{
+
+  color: #1bacbb;
+  font-weight: 100;
+
+}
+
 .button-6 {
   align-items: center;
   width: 100px;
-  background-color: #FFFFFF;
+  background-color: #F0F0F1;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: .25rem;
   box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
@@ -303,6 +312,7 @@ header {
 .partner-logo, .partner-logo-first {
   font-weight: 900;
   font-size: 2vw;
+  /* background-color: #1bacbb; */
 }
 
 .partner-logo-text {
@@ -637,7 +647,13 @@ footer {
 }
 
 /* On screens that are 1000px wide or less */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 762px) {
+
+  canvas {
+    position: absolute;
+    visibility: hidden;
+    /* height: 0px; */
+  }
 
   nav {
       display: none;
