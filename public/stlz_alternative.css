@@ -590,6 +590,18 @@ footer {
     max-width: 100%;
     max-height: 100%;
   }
+
+  .instructions-row {
+    height: 30vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    display: flex;
+    flex-wrap: wrap;
+    color: #1bacbb;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
   
   .column-image {
     flex: 40%;
