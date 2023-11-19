@@ -37,34 +37,40 @@ $(document).ready(function () {
     $('#registrationForm').submit(function (event) {
         event.preventDefault(); // Prevent the default form submission
 
-        const formData = {
-            username: $('#username').val(),
-            email: $('#email').val(),
-            region: $('#region').val(),
-            place: $('#place').val(),
-            role: $('#role').val(),
-            language: $('#language').val(),
-            gender: $('#gender').val(),
-            age: $('#age').val(),
-            school: $('#school').val(),
-        };
+        // Validate inputs before sending to the server
+        if (validateInputs()) {
+            const formData = {
+                username: $('#username').val(),
+                email: $('#email').val(),
+                region: $('#region').val(),
+                place: $('#place').val(),
+                role: $('#role').val(),
+                language: $('#language').val(),
+                gender: $('#gender').val(),
+                age: $('#age').val(),
+                school: $('#school').val(),
+            };
 
-        // Send data to server
-        $.ajax({
-            type: 'POST',
-            url: '/register',
-            data: formData,
-            success: function (response) {
-                console.log(response);
+            // Send data to server
+            $.ajax({
+                type: 'POST',
+                url: '/register',
+                data: formData,
+                success: function (response) {
+                    console.log(response);
 
-                // Hide registration form and show confirmation message
-                $('#registrationForm').hide();
-                $('#confirmationMessage').show();
-            },
-            error: function (error) {
-                console.error('Error:', error);
-            }
-        });
+                    // Hide registration form and show confirmation message
+                    $('#registrationForm').hide();
+                    $('#confirmationMessage').show();
+                },
+                error: function (error) {
+                    console.error('Error:', error);
+                }
+            });
+        } else {
+            // Validation failed, show error message
+            showError('Запрещено вводить " , "!');
+        }
     });
 
     // Close confirmation message
@@ -75,5 +81,30 @@ $(document).ready(function () {
         $('#confirmationMessage').hide();
     });
 
-});
+    // Input validation function
+    function validateInputs() {
+        // Define prohibited characters
+        const prohibitedCharacters = /[,&!?]/;
 
+        // Check each input for prohibited characters
+        const inputs = ['#username', '#email', '#region', '#place', '#role', '#language', '#gender', '#age', '#school'];
+        for (const input of inputs) {
+            const value = $(input).val();
+            if (prohibitedCharacters.test(value)) {
+                return false; // Validation failed
+            }
+        }
+
+        return true; // Validation passed
+    }
+
+    // Function to show an error message
+    function showError(message) {
+        // Remove any existing error messages
+        $('.error-message').remove();
+
+        // Create and append a new error message
+        const errorMessage = $('<div class="error-message"></div>').text(message);
+        $('#registrationForm').append(errorMessage);
+    }
+});

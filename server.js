@@ -10,6 +10,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static('public'));
 
 const csvFilePath = path.join(__dirname, 'cleaned_data.csv');
+const logFilePath = path.join(__dirname, 'registration.log'); 
 
 // Initialize counter based on existing entries in users.csv
 let userCounter = 0;
@@ -33,7 +34,24 @@ rl.on('close', () => {
     console.log(`Initialized userCounter to ${userCounter} based on existing entries in users.csv`);
 });
 
+// Function to write registration attempts to the log file
+function writeToLog(timestamp, userId) {
+    const logEntry = `${timestamp.toISOString()} - ID: ${userId}\n`;
+
+    fs.appendFile(logFilePath, logEntry, (err) => {
+        if (err) {
+            console.error('Error writing to log file:', err);
+        }
+    });
+}
+
+
+
 app.post('/register', async (req, res) => {
+    const timestamp = new Date();
+    const userId = userCounter;
+    writeToLog(timestamp, userId);
+
     const { username, email, region, place, role, language, gender, age, school } = req.body;
 
     // Format data as CSV
@@ -88,50 +106,6 @@ app.get('/index.html', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
-// Endpoint to get data for the bar chart
-app.get('/barChartData', (req, res) => {
-    // Read the users.csv file
-    fs.readFile(csvFilePath, 'utf8', (err, data) => {
-        if (err) {
-            console.error('Error reading users.csv:', err);
-            res.status(500).send('Error reading data');
-            return;
-        }
-
-        // Parse CSV data
-        const lines = data.split('\n');
-        const headers = lines[0].split(',');
-        const regionIndex = headers.indexOf('region');
-        // console.log(regionIndex)
-
-        // Count occurrences of each region
-        const regionCounts = {};
-        for (let i = 1; i < lines.length - 1; i++) {
-            const values = lines[i].split(',');
-            // console.log(values[regionIndex])
-            // console.log(i)
-            const region = values[regionIndex].trim();
-            regionCounts[region] = (regionCounts[region] || 0) + 1;
-        }
-
-        // Prepare data for the bar chart
-        const labels = Object.keys(regionCounts);
-        const chartData = Object.values(regionCounts);
-
-        const barChartData = {
-            labels: labels,
-            datasets: [{
-                label: '',
-                data: chartData,
-                backgroundColor: 'rgba(27, 172, 187, 1)',
-                borderColor: 'rgba(75, 192, 192, 1)',
-                borderWidth: 1
-            }]
-        };
-
-        res.json(barChartData);
-    });
-});
 
 
 app.listen(port, () => {
