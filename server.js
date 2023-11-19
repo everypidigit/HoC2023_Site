@@ -9,7 +9,7 @@ const port = 3000;
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static('public'));
 
-const csvFilePath = path.join(__dirname, 'cleaned_data.csv');
+const csvFilePath = path.join(__dirname, 'users.csv');
 const logFilePath = path.join(__dirname, 'registration.log'); 
 
 // Initialize counter based on existing entries in users.csv

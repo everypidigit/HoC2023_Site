@@ -1,4 +1,4 @@
-name,email,region, place,role,language,gender,age,school
+name,email,region,place,role,language,gender,age,school
 daniyar.kakimbekov,asdasd@asdsd.com,Алматинская, ,teacher,russian,female,31,asdasd
 daniyar.kakimbekov,asdasd@asdsd.com,Алматинская, ,teacher,russian,female,31,asdasd
 daniyar.kakimbekov,asdasd@asdsd.com,Алматинская, ,teacher,russian,male,31,asdasd
@@ -41,13 +41,13 @@ daniyar.kakimbekov,daniyar.kakimbekov@nu.edu.kz,Астана,  ,teacher,english,
 Ерлан,galakan446@gmail.com,Шымкент, ,teacher,kazakh,male,20,Robo Park
 Ерлан,galakan446@gmail.com,Шымкент, ,teacher,kazakh,male,20,Robo Park
 Ерлан,galakan446@gmail.com,Шымкент, ,teacher,kazakh,male,20,Robo Park
-амина,аяла,moldir_251190@mail.ru,Абайская, ,student,kazakh,female,9,15 мектеп
+амина аяла,moldir_251190@mail.ru,Абайская, ,student,kazakh,female,9,15 мектеп
 Ерлан,galakan446@gmail.com,Шымкент, ,teacher,kazakh,male,20,Robo Park
 Ерлан,galakan446@gmail.com,Шымкент, ,teacher,kazakh,male,20,Robo Park
 Амира,gulnara-74_10@mail.ru,Абайская, ,student,kazakh,female,8,15
 Амира,gulnara-74_10@mail.ru,Абайская, ,student,kazakh,female,8,15
 Ерлан,galakan446@gmail.com,Шымкент, ,student,kazakh,male,20,Robo Park
-медина,аяжан,moldir_251190@mail.ru,Абайская, ,student,kazakh,female,8 , 8,№15
+медина аяжан,moldir_251190@mail.ru,Абайская, ,student,kazakh,female,8,№15
 еркежан,moldir_251190@mail.ru,Абайская, ,student,kazakh,female,8,№15
 талгат гулзина,mustabaevaa@gmail.com,Абайская, ,student,kazakh,female,9,15
 ришат айару,moldir_251190@mail.ru,Абайская, ,student,kazakh,female,8,15 
@@ -71,3 +71,505 @@ daniyar.kakimbekov,daniyar_test@mail.com,Астана, ,teacher,kazakh,male,21,6
 daniyar.kakimbekov,daniyar_test@mail.com,Астана, Test, teacher,kazakh,male,21,69th school gymnasium
 test.name,daniyar_test@mail.com,Астана, test.place, teacher,russian,male,21,test.school
 test.name,daniyar_test@mail.com,Астана, test.place, teacher,russian,male,21,test.school
+Бакытжан,kabdollarvna_bs@mail.ru,Абайская, Абай ауданы , teacher,kazakh,female,37,Ш.Әбенов атындағы жалпы орта білім беретін мектеп 
+Алма,omarkhan.alma@mail.ru,Абайская, Абай ауданы, teacher,kazakh,female,59,Ш.Тоқжігітов  атындағы  орта  мектебі КММ
+Канат,newyar2@mail.ru,Абайская, Қасқабұлақ , teacher,kazakh,male,34,Мұхтар Әуезов 
+Нәзира,ahmethanovanazira@gmail.com,Абайская, Абай ауданы Орда ауылы Мырзабекова44, teacher,kazakh,female,33,"Мамай атындағы негізгі орта мектебі"КММ
+Айгул,aygul.omirtay@mail.ru,Абайская, Абай ауданы, teacher,kazakh,female,57,Медеу орта мектебі КММ
+Вероника Леонидовна,nika.l95@mail.ru,Северо-Казахстанская, с. Кирилловка, teacher,russian,female,28,КГУ "Кириловская средняя школа"
+Анна,korskaja@mail.ru,Северо-Казахстанская, с. Константиновка, teacher,russian,female,42,КГУ"Константиновский Комплекс школа ясли - сад"
+АЖАР,Aktoty19031993@gmail.com,Атырауская, , student,russian,female,22,34
+Ботагөз Болатқанқызы,tokpaeva.92@mail.ru,Восточно-Казахстанская, Өскемен қ., teacher,kazakh,female,30,1 орта мектебі
+Айнур,a_zharasbaeva@mail.ru,Абайская, Кеңгірбай би ауылы, teacher,kazakh,female,39,“Шәкерім атындағы орта мектебі”КММ
+Renat_Kaliaskar,kaliaskarrenat7@gmail.com,Северо-Казахстанская, Антоновка , teacher,russian,male,23,Антоновская СШ
+Roza,roziko-91@mail.ru,Шымкент, undefined, teacher,kazakh,female,31,Parasat AJ мектебі 
+РОЛЛАНҚЫЗЫ,zhumasheva.akmaral@mail.ru,Атырауская, Атырау, student,kazakh,female,12,34 КСМГ
+Arinova,aet-75@mail.ru,Карагандинская, Караганда, teacher,russian,female,47, Гимназия имени Шакарима
+Гулжан,gulzhanisakhan047@gmail.com,Шымкент, , teacher,kazakh,female,50,99
+Даулет ,gulmira_870710@mail.ru,Шымкент, Шымкент , student,kazakh,male,11,№55 
+Жанбуршинова Валентина Александровна,valushka_95.1995@mail.ru,Северо-Казахстанская, с.Гусаковка, teacher,russian,female,28,КГУ "Гусаковская СШ"
+Әділет,atleujali@gmail.com,Абайская, , student,russian,male,9,Гимназия номер 5
+Инна,kazahstanosh21@gmail.com,Карагандинская, Караганда, teacher,russian,female,44,КГУ "ОСШ №21"
+Гульден,gulden_23.97@mail.ru,Северо-Казахстанская, Қаратал, teacher,kazakh,female,26,Қаратал орта мектебі
+Райгүл,daurenbekova-rai@mail.ru,Северо-Казахстанская, , teacher,kazakh,female,26,20 мектеп
+Сергей,s-e-r-g-e-i88@mail.ru,Северо-Казахстанская, Астраханка, teacher,russian,male,35,КГУ "Астраханская СШ"
+Анастасия ,nastj0302@mail.ru,Восточно-Казахстанская, Риддер, teacher,russian,female,32,КГУ «Основная средняя школа с.Бутаково»
+Анастасия Кузнецова ,nastj0302@mail.ru,Восточно-Казахстанская, Риддер, teacher,russian,female,32,КГУ « Основная средняя школа им.М.Горького»
+Айнара ,baigeldieva.laura@gmail.com,Алматы, Алатау ауданы, student,kazakh,female,8,182 ЖББ мектеп 
+Айнара ,baigeldieva.laura@gmail.com,Алматы, Алатау ауданы, student,kazakh,female,8,182 ЖББ мектеп 
+Айнара ,baigeldieva.laura@gmail.com,Алматы, Алатауский район , student,russian,female,8,182 ЖББ мектеп 
+Адемы,ademy.kaukenova@mail.ru,Абайская, Абай, teacher,kazakh,female,35,"С.Бекбосынов атындағы орта мектеп"КММ
+Алтын,altyn.ustaeva.83@mail.ru,Павлодарская, Павлодар, teacher,kazakh,female,38,3 гимназия
+Жигер,zhiger_95@bk.ru,Западно-Казахстанская, Ақсай қаласы, teacher,russian,male,28,Roboschool  Aksay
+Думан,kabdulovduman5@gmail.com,Северо-Казахстанская, Саумалколь, teacher,russian,male,23,Златогорская средняя школа
+Андрей,a_rodimov@mail.ru,Северо-Казахстанская, Байтерек, teacher,russian,male,40,Фурмановская СШ
+Тассауин Іңкәрбекұлы Тастанбек,tassauint@gmail.com,Туркестанская, Темір ауылы, teacher,kazakh,male,53,"Темір жалпы білім беру мектебі" КММ
+Анарбекұлы Ахат ,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Әйтбек  Інжу,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,11,"Темір жалпы білім беру мектебі" КММ
+Біржан  Қарақат ,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,11,"Темір жалпы білім беру мектебі" КММ
+Байарыс  Бақдәулет,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Бақытұлы  Бақдәулет,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Базарбек  Еңлік ,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,11,"Темір жалпы білім беру мектебі" КММ
+Дүйсенбай  Мадина,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,11,"Темір жалпы білім беру мектебі" КММ
+Дүйсенбай  Мадина,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,11,"Темір жалпы білім беру мектебі" КММ
+Дүйсенбай  Мадина,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,11,"Темір жалпы білім беру мектебі" КММ
+Датқа  Нұрбақыт,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Нұртаза  Мирас,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Назарбаева  Інжу,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,11,"Темір жалпы білім беру мектебі" КММ
+Сәбитов  Санжар,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Серік  Әсел,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,11,"Темір жалпы білім беру мектебі" КММ
+Серік  Әсет,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Сейітхан  Нұрхан,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Сейдан  Нұрай,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,11,"Темір жалпы білім беру мектебі" КММ
+Серікбай  Кәусар,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,11,"Темір жалпы білім беру мектебі" КММ
+Орынбай  Төлеби,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Орынбай  Іңкәр,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,11,"Темір жалпы білім беру мектебі" КММ
+Қалдыбек Венера,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,11,"Темір жалпы білім беру мектебі" КММ
+Тасбалта  Қасиет,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,11,"Темір жалпы білім беру мектебі" КММ
+Тасбалта  Қасиет,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,11,"Темір жалпы білім беру мектебі" КММ
+Серікүлы Данияр,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Бабахан Бақдәулет,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Молдаев Ынтымақ,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Аймұрза Әнел ,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,11,"Темір жалпы білім беру мектебі" КММ
+Аралбай Нұрдәулет ,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Асқанбек Назерке ,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,11,"Темір жалпы білім беру мектебі" КММ
+Алтай Шапағат,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Әжмахан Аян,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Батырбек Абдуррахим,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Бахиритдинов Сұлтан,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Бекжігіт Дидар,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,11,"Темір жалпы білім беру мектебі" КММ
+Ерғали Қарақат,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,11,"Темір жалпы білім беру мектебі" КММ
+Жақсыбек Сымбат,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,11,"Темір жалпы білім беру мектебі" КММ
+Жезтай Інжу,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,11,"Темір жалпы білім беру мектебі" КММ
+Сабыр Әдемі,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,11,"Темір жалпы білім беру мектебі" КММ
+Серікжан Нұрасыл,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Сайфолла Нұраслан,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Мұратбек Айару,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,11,"Темір жалпы білім беру мектебі" КММ
+Омар Тамирис,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,11,"Темір жалпы білім беру мектебі" КММ
+Табыс Кәусар,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,11,"Темір жалпы білім беру мектебі" КММ
+Тәңірберген Жәудір,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,11,"Темір жалпы білім беру мектебі" КММ
+Тәңірберген Жәудір,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,11,"Темір жалпы білім беру мектебі" КММ
+Темірәлі Жәния,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,11,"Темір жалпы білім беру мектебі" КММ
+Темірәлі Жәния,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,11,"Темір жалпы білім беру мектебі" КММ
+Темірәлі Жәния,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,11,"Темір жалпы білім беру мектебі" КММ
+Темірәлі Жәния,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,11,"Темір жалпы білім беру мектебі" КММ
+Темірәлі Жәния,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,11,"Темір жалпы білім беру мектебі" КММ
+Халықбек Нұрдәулет,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Халықбек Нұрдәулет,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Халықбек Нұрдәулет,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Халықбек Нұрдәулет,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Халықбек Нұрдәулет,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Халықбек Нұрдәулет,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Халықбек Нұрдәулет,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Халықбек Нұрдәулет,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Халықбек Нұрдәулет,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Халықбек Нұрдәулет,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Халықбек Нұрдәулет,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Халықбек Нұрдәулет,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Іңкәрбек Еркеай,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,11,"Темір жалпы білім беру мектебі" КММ
+Іңкәрбек Еркеай,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,11,"Темір жалпы білім беру мектебі" КММ
+Іңкәрбек Еркеай,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,11,"Темір жалпы білім беру мектебі" КММ
+Елена Александровна Володина,helen_av@mail.ru,Северо-Казахстанская, Петропавловск, teacher,russian,female,46,КГУ "Гимназия "БЭСТ"
+Керімбеков Заңғар,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Алдау  Әли,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Асқар  Еркеназ,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,11,"Темір жалпы білім беру мектебі" КММ
+Әбдіқадыр Айару,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,11,"Темір жалпы білім беру мектебі" КММ
+Әбжал  Нұрислам,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,11,"Темір жалпы білім беру мектебі" КММ
+Әбжал  Нұрислам,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,11,"Темір жалпы білім беру мектебі" КММ
+Әбжал  Нұрислам,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,11,"Темір жалпы білім беру мектебі" КММ
+Әбжал  Нұрислам,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,11,"Темір жалпы білім беру мектебі" КММ
+Әбжал  Нұрислам,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,11,"Темір жалпы білім беру мектебі" КММ
+Әбжал  Нұрислам,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,11,"Темір жалпы білім беру мектебі" КММ
+Әбжал  Нұрислам,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,11,"Темір жалпы білім беру мектебі" КММ
+Әбжал  Нұрислам,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,11,"Темір жалпы білім беру мектебі" КММ
+Әбжал  Нұрислам,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,11,"Темір жалпы білім беру мектебі" КММ
+Әбжал  Нұрислам,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,11,"Темір жалпы білім беру мектебі" КММ
+Әбжал  Нұрислам,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,11,"Темір жалпы білім беру мектебі" КММ
+Әбжал  Нұрислам,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,11,"Темір жалпы білім беру мектебі" КММ
+Әбжал  Нұрислам,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,11,"Темір жалпы білім беру мектебі" КММ
+Әбдіқадір Балбала,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Әбдіқадір Балбала,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Әбдіқадір Балбала,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Әбдіқадір Балбала,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Әбдіқадір Балбала,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Әбдіқадір Балбала,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Әбдіқадір Балбала,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Әбдіқадір Балбала,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Әбдіқадір Балбала,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Әбдіқадір Балбала,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Әбдіқадір Балбала,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Әбдіқадір Балбала,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Әбдіқадір Балбала,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Әбдіқадір Балбала,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Әбдіқадір Балбала,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Әбдіқадір Балбала,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Әбдіқадір Балбала,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Әбдіқадір Балбала,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Әбдіқадір Балбала,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Әбдіқадір Балбала,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Әбдіқадір Балбала,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Әбдіқадір Балбала,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Әбдіқадір Балбала,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Әбдіқадір Балбала,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Әбдіқадір Балбала,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Әбдіқадір Балбала,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Әбдіқадір Балбала,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Әбдіқадір Балбала,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Әбдіқадір Балбала,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Әбдіқадір Балбала,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Әбдіқадір Балбала,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Әбдіқадір Балбала,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Әбдіқадір Балбала,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Әбдіқадір Балбала,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Әбдіқадір Балбала,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Әбдіқадір Балбала,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Әбдіқадір Балбала,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Әбдіқадір Балбала,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Әбдіқадір Балбала,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Әбдіқадір Балбала,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Әбдіқадір Балбала,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Әбдіқадір Балбала,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Әбдіқадір Балбала,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Әбдіқадір Балбала,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Әбдіқадір Балбала,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Әбдіқадір Балбала,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Әбдіқадір Балбала,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Әбдіқадір Балбала,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Әбдіқадір Балбала,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Әзімхан Алтынай,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,11,"Темір жалпы білім беру мектебі" КММ
+Жақып  Қарақат,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,11,"Темір жалпы білім беру мектебі" КММ
+Кәміл Айзере,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,11,"Темір жалпы білім беру мектебі" КММ
+Құрбанәлі  Сырым,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Қуандық  Көркем,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,11,"Темір жалпы білім беру мектебі" КММ
+Қалдыбек Асылжан,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Осман  Сабина,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,11,"Темір жалпы білім беру мектебі" КММ
+Осман  Сабина,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,11,"Темір жалпы білім беру мектебі" КММ
+Оралбекова  Көркем,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,11,"Темір жалпы білім беру мектебі" КММ
+Серік  Ақжүрек,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,11,"Темір жалпы білім беру мектебі" КММ
+Сембек  Асылай,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,11,"Темір жалпы білім беру мектебі" КММ
+Серік  Мирас,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Серікбай  Ұлжан,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,11,"Темір жалпы білім беру мектебі" КММ
+Сұлтанхан  Айару,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,11,"Темір жалпы білім беру мектебі" КММ
+Түгелбаева Аделя,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,11,"Темір жалпы білім беру мектебі" КММ
+Эркесариев  Бақдәулет,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,11,"Темір жалпы білім беру мектебі" КММ
+Шереханұлы  Әділжан,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,11,"Темір жалпы білім беру мектебі" КММ
+Амантай  Ұлсара,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,11,"Темір жалпы білім беру мектебі" КММ
+Амантай  Ұлсара,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,11,"Темір жалпы білім беру мектебі" КММ
+Абибулла  Ернар,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,11,"Темір жалпы білім беру мектебі" КММ
+Ануар  Дидарай  ,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,11,"Темір жалпы білім беру мектебі" КММ
+Әзімхан  Бақытжан,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,11,"Темір жалпы білім беру мектебі" КММ
+Әшірхан  Ақнұр,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,12,"Темір жалпы білім беру мектебі" КММ
+Бейсенбай  Аян,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,12,"Темір жалпы білім беру мектебі" КММ
+Бахиритдинова  Шахризат ,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,12,"Темір жалпы білім беру мектебі" КММ
+Баянғали   Қыдырәлі,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,12,"Темір жалпы білім беру мектебі" КММ
+Батырбек Айым,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,12,"Темір жалпы білім беру мектебі" КММ
+Бақытжанұлы  Тұрсынбек,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,12,"Темір жалпы білім беру мектебі" КММ
+Надежда,shestak-nadezhda@mail.ru,Костанайская, Фёдоровка, teacher,russian,female,65,Первомайская школа
+Қадыр  Айзере ,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,12,"Темір жалпы білім беру мектебі" КММ
+Қадыр  Айзере ,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,12,"Темір жалпы білім беру мектебі" КММ
+Жұпарбек  Аружан,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,12,"Темір жалпы білім беру мектебі" КММ
+Мәдіхан  Талғат  ,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,12,"Темір жалпы білім беру мектебі" КММ
+Марат   Бекасыл ,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,12,"Темір жалпы білім беру мектебі" КММ
+Сейітхан  Асылжан,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,12,"Темір жалпы білім беру мектебі" КММ
+Саттархан  Ақдидар ,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,12,"Темір жалпы білім беру мектебі" КММ
+Саттархан  Ақдидар ,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,12,"Темір жалпы білім беру мектебі" КММ
+Саттархан  Ақдидар ,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,12,"Темір жалпы білім беру мектебі" КММ
+Саттархан  Ақдидар ,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,12,"Темір жалпы білім беру мектебі" КММ
+Срайыл  Нұрсұлтан ,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,12,"Темір жалпы білім беру мектебі" КММ
+Сейілхан   Қарақат ,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,12,"Темір жалпы білім беру мектебі" КММ
+Орынбай  Диас,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,12,"Темір жалпы білім беру мектебі" КММ
+Ұлықбек  Думан,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,12,"Темір жалпы білім беру мектебі" КММ
+Ескер Қуаныш,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,12,"Темір жалпы білім беру мектебі" КММ
+Аманбек Нұрали,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,12,"Темір жалпы білім беру мектебі" КММ
+Әбутәліп Айшуақ ,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,12,"Темір жалпы білім беру мектебі" КММ
+Әлшері Айзере,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,12,"Темір жалпы білім беру мектебі" КММ
+Әшірхан Гүлім,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,12,"Темір жалпы білім беру мектебі" КММ
+Әлімжан Абдуррахман,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,12,"Темір жалпы білім беру мектебі" КММ
+Балтабай Асылжан,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,12,"Темір жалпы білім беру мектебі" КММ
+Бегміш Ақнұр,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,12,"Темір жалпы білім беру мектебі" КММ
+Егенберді Інжу ,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,12,"Темір жалпы білім беру мектебі" КММ
+Ибадулла Інжу,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,12,"Темір жалпы білім беру мектебі" КММ
+Мәдіхан Жансая ,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,12,"Темір жалпы білім беру мектебі" КММ
+Мәлік Зере ,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,12,"Темір жалпы білім беру мектебі" КММ
+Номан Жансейіт,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,12,"Темір жалпы білім беру мектебі" КММ
+Осман Мадина,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,12,"Темір жалпы білім беру мектебі" КММ
+Амандық ,eroshero059@gmail.com,Алматинская, Панфилов ауылы, student,kazakh,male,16,JOO high school 
+Бекзат Акишева,bekzat_akisheva@mail.ru,Северо-Казахстанская, Трудовая, teacher,russian,female,52,КГУ "Каменнобродская средняя школа"
+Сайфулла Бекзат,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,12,"Темір жалпы білім беру мектебі" КММ
+Салман Нұрсұлтан,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,12,"Темір жалпы білім беру мектебі" КММ
+Сәрсенбек Айсана ,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,12,"Темір жалпы білім беру мектебі" КММ
+Сәрсенбек Нұрәли,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,12,"Темір жалпы білім беру мектебі" КММ
+Серік Аяулым ,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,12,"Темір жалпы білім беру мектебі" КММ
+Талғатқызы Айда,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,12,"Темір жалпы білім беру мектебі" КММ
+Талғатқызы Аяжан,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,12,"Темір жалпы білім беру мектебі" КММ
+Тасболат Сымбат,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,12,"Темір жалпы білім беру мектебі" КММ
+Тыныбек Арсен,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,12,"Темір жалпы білім беру мектебі" КММ
+Абдуллаев Мадияр,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,12,"Темір жалпы білім беру мектебі" КММ
+Абдуллаев Мадияр,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,12,"Темір жалпы білім беру мектебі" КММ
+Абдуллаев Мадияр,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,12,"Темір жалпы білім беру мектебі" КММ
+Абдуллаев Мадияр,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,12,"Темір жалпы білім беру мектебі" КММ
+Бөртебай Нұрасыл,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,12,"Темір жалпы білім беру мектебі" КММ
+Еркін Өсиет,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,12,"Темір жалпы білім беру мектебі" КММ
+Құдайберген Жанерке,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,12,"Темір жалпы білім беру мектебі" КММ
+Құлахмет Мөлдір,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,12,"Темір жалпы білім беру мектебі" КММ
+Мақсұт Бекарыс,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,12,"Темір жалпы білім беру мектебі" КММ
+Мелдехан Нұрасыл,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,12,"Темір жалпы білім беру мектебі" КММ
+Молдаева Қарақат,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,12,"Темір жалпы білім беру мектебі" КММ
+Ноғайбек Айымгүл,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,12,"Темір жалпы білім беру мектебі" КММ
+Сайфолла Саят,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,12,"Темір жалпы білім беру мектебі" КММ
+Сембек Нұрдәулет,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,12,"Темір жалпы білім беру мектебі" КММ
+Сейдан Нұрзат,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,12,"Темір жалпы білім беру мектебі" КММ
+Сақ Інжіл,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,12,"Темір жалпы білім беру мектебі" КММ
+Тасбалта Ынтымақ,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,12,"Темір жалпы білім беру мектебі" КММ
+Тасқынбек Аяулым,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,12,"Темір жалпы білім беру мектебі" КММ
+Тоқтас Дінмұхаммед,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,12,"Темір жалпы білім беру мектебі" КММ
+Тоқтас Мадияр,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,12,"Темір жалпы білім беру мектебі" КММ
+Егемқұл Кәусар,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,12,"Темір жалпы білім беру мектебі" КММ
+Бердіқұл Эльвира,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,12,"Темір жалпы білім беру мектебі" КММ
+Әшірбекова Алуа,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,12,"Темір жалпы білім беру мектебі" КММ
+Әуесхан Назерке ,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,12,"Темір жалпы білім беру мектебі" КММ
+Баймұрат Арсен,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,12,"Темір жалпы білім беру мектебі" КММ
+Баймұрат Арсен,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,12,"Темір жалпы білім беру мектебі" КММ
+Баймұрат Арсен,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,12,"Темір жалпы білім беру мектебі" КММ
+Баймұрат Арсен,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,12,"Темір жалпы білім беру мектебі" КММ
+Баймұрат Арсен,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,12,"Темір жалпы білім беру мектебі" КММ
+Баймұрат Арсен,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,12,"Темір жалпы білім беру мектебі" КММ
+Баймұрат Арсен,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,12,"Темір жалпы білім беру мектебі" КММ
+Баймұрат Арсен,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,12,"Темір жалпы білім беру мектебі" КММ
+Баймұрат Арсен,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,12,"Темір жалпы білім беру мектебі" КММ
+Баймұрат Арсен,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,12,"Темір жалпы білім беру мектебі" КММ
+Баймұрат Арсен,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,12,"Темір жалпы білім беру мектебі" КММ
+Баймұрат Арсен,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,12,"Темір жалпы білім беру мектебі" КММ
+Баймұрат Арсен,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,12,"Темір жалпы білім беру мектебі" КММ
+Баймұрат Арсен,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,12,"Темір жалпы білім беру мектебі" КММ
+Баймұрат Арсен,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,12,"Темір жалпы білім беру мектебі" КММ
+Баймұрат Арсен,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,12,"Темір жалпы білім беру мектебі" КММ
+Баймұрат Арсен,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,12,"Темір жалпы білім беру мектебі" КММ
+Баймұрат Арсен,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,12,"Темір жалпы білім беру мектебі" КММ
+Баймұрат Арсен,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,12,"Темір жалпы білім беру мектебі" КММ
+Батырхан Олжас,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,12,"Темір жалпы білім беру мектебі" КММ
+Даниярқызы Ұлданай,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,12,"Темір жалпы білім беру мектебі" КММ
+Дөненбай Айару,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,12,"Темір жалпы білім беру мектебі" КММ
+Жақсылық Диана,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,12,"Темір жалпы білім беру мектебі" КММ
+Жантемір Ерсайын,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,12,"Темір жалпы білім беру мектебі" КММ
+Марат Эльназ,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,12,"Темір жалпы білім беру мектебі" КММ
+Нышанбекұлы Нұрдәулет,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,12,"Темір жалпы білім беру мектебі" КММ
+Нұрмахан Ердәулет,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,12,"Темір жалпы білім беру мектебі" КММ
+Серікбай Аружан,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,12,"Темір жалпы білім беру мектебі" КММ
+Серікбай Аружан,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,12,"Темір жалпы білім беру мектебі" КММ
+Срайыл Инавад,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,12,"Темір жалпы білім беру мектебі" КММ
+Анна,angel-96-anneta@list.ru,Акмолинская, , teacher,russian,female,26,КГУ "ОСШ села Таволжанка"
+Пердехан Ерасыл,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,12,"Темір жалпы білім беру мектебі" КММ
+Іңкәрбек Қарлығаш,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,12,"Темір жалпы білім беру мектебі" КММ
+Іңкәрбек Нұрдәулет,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,12,"Темір жалпы білім беру мектебі" КММ
+Ыбырайым Айана,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,12,"Темір жалпы білім беру мектебі" КММ
+Ыбырайым Айана,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,12,"Темір жалпы білім беру мектебі" КММ
+Ыбырайым Айана,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,12,"Темір жалпы білім беру мектебі" КММ
+Бақытжан Маржан,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,12,"Темір жалпы білім беру мектебі" КММ
+Қалдар Айша,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,12,"Темір жалпы білім беру мектебі" КММ
+Халықбек Қарақат,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,12,"Темір жалпы білім беру мектебі" КММ
+Амантай  Береке,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,13,"Темір жалпы білім беру мектебі" КММ
+Амантай  Жансая ,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,13,"Темір жалпы білім беру мектебі" КММ
+Асанов  Нұрасыл ,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,13,"Темір жалпы білім беру мектебі" КММ
+Әлімбай  Ербақтияр,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,13,"Темір жалпы білім беру мектебі" КММ
+Бақыт  Рамазан,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,13,"Темір жалпы білім беру мектебі" КММ
+Бауыржанқызы  Інжу,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,13,"Темір жалпы білім беру мектебі" КММ
+Бауыржанқызы  Інжу,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,13,"Темір жалпы білім беру мектебі" КММ
+Датқа  Нұрилә,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,13,"Темір жалпы білім беру мектебі" КММ
+Егенберді  Ақнұр,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,13,"Темір жалпы білім беру мектебі" КММ
+Кәміл  Кәусар ,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,13,"Темір жалпы білім беру мектебі" КММ
+Қалдыбай  Олжас,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,13,"Темір жалпы білім беру мектебі" КММ
+Қанатқызы  Кәусар,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,13,"Темір жалпы білім беру мектебі" КММ
+Әсілхан   Алина,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,13,"Темір жалпы білім беру мектебі" КММ
+Мырзабай  Шұғыла,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,13,"Темір жалпы білім беру мектебі" КММ
+Рахым  Сырым,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,13,"Темір жалпы білім беру мектебі" КММ
+Рысбай  Жігер,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,13,"Темір жалпы білім беру мектебі" КММ
+Сабыр  Дәулет,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,13,"Темір жалпы білім беру мектебі" КММ
+Жұлдыз,akbasova90@inbox.ru,Кызылординская, Жосалы, teacher,kazakh,female,33,26 мектеп
+Сейдахмет Анар,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,13,"Темір жалпы білім беру мектебі" КММ
+Сұлтанхан  Мадияр ,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,13,"Темір жалпы білім беру мектебі" КММ
+Тәліп  Диас  ,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,13,"Темір жалпы білім беру мектебі" КММ
+Оспан  Мадина ,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,13,"Темір жалпы білім беру мектебі" КММ
+Әбдіқадыр Ерасыл,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,13,"Темір жалпы білім беру мектебі" КММ
+Әріл Әділет,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,13,"Темір жалпы білім беру мектебі" КММ
+Бақытұлы Нұртас,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,13,"Темір жалпы білім беру мектебі" КММ
+Біржан Ерлан ,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,13,"Темір жалпы білім беру мектебі" КММ
+Ғалымжанқызы Жібек,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,13,"Темір жалпы білім беру мектебі" КММ
+Дүйсенбай Әмина,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,13,"Темір жалпы білім беру мектебі" КММ
+Елдарқызы Альбина,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,13,"Темір жалпы білім беру мектебі" КММ
+Ерғалиқызы Кәусар,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,13,"Темір жалпы білім беру мектебі" КММ
+Ибадулла Сымбат ,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,13,"Темір жалпы білім беру мектебі" КММ
+Қалижанқызы Асылай,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,13,"Темір жалпы білім беру мектебі" КММ
+Құдайберген Ерзат,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,13,"Темір жалпы білім беру мектебі" КММ
+Мәлік Сабыржан ,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,13,"Темір жалпы білім беру мектебі" КММ
+Мейрамханов Даулет,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,13,"Темір жалпы білім беру мектебі" КММ
+Мұхтар Бекарыс,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,13,"Темір жалпы білім беру мектебі" КММ
+Тұрсынбек Айнұр,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,13,"Темір жалпы білім беру мектебі" КММ
+Орынбай Әсет,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,13,"Темір жалпы білім беру мектебі" КММ
+Сартбай Сабина,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,13,"Темір жалпы білім беру мектебі" КММ
+Саттархан Жаннұр,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,13,"Темір жалпы білім беру мектебі" КММ
+Тұрабай Әділет ,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,13,"Темір жалпы білім беру мектебі" КММ
+Түгелбаев Райян,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,13,"Темір жалпы білім беру мектебі" КММ
+ Алдау Адияна      ,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,13,"Темір жалпы білім беру мектебі" КММ
+Ануарбек Ханшайым,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,13,"Темір жалпы білім беру мектебі" КММ
+Байырбек Балауса,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,13,"Темір жалпы білім беру мектебі" КММ
+Бектас Кәусар,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,13,"Темір жалпы білім беру мектебі" КММ
+Бектас Кәусар,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,13,"Темір жалпы білім беру мектебі" КММ
+Бектас Кәусар,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,13,"Темір жалпы білім беру мектебі" КММ
+Бектас Кәусар,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,13,"Темір жалпы білім беру мектебі" КММ
+Алтай Айша ,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,13,"Темір жалпы білім беру мектебі" КММ
+Наталья,natalka_bel63@mail.ru,Акмолинская, c. Окжетпес, teacher,russian,female,60,КГУ "Общеобразовательная школа села Окжетпес"
+Ержігіт Мұхаммед,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,13,"Темір жалпы білім беру мектебі" КММ
+Әкім Асылжан,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,13,"Темір жалпы білім беру мектебі" КММ
+Әкім Батыр ,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,13,"Темір жалпы білім беру мектебі" КММ
+Марат Салтанат,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,13,"Темір жалпы білім беру мектебі" КММ
+Нұрмахан Нұрдаулет,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,13,"Темір жалпы білім беру мектебі" КММ
+Омар Наргиза ,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,13,"Темір жалпы білім беру мектебі" КММ
+Бақытжан Рамазан,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,13,"Темір жалпы білім беру мектебі" КММ
+Серікұлы Ерлан,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,13,"Темір жалпы білім беру мектебі" КММ
+Табыс Дамир,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,13,"Темір жалпы білім беру мектебі" КММ
+Тоқтасын Нұрасыл,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,13,"Темір жалпы білім беру мектебі" КММ
+Ыбырайым Азамат,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,13,"Темір жалпы білім беру мектебі" КММ
+мұңсыз,mnsipkyzy@gmail.com,Карагандинская, сары арқа, student,kazakh,female,17,заречный ЖББ
+Омар Тұрлыхан ,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,13,"Темір жалпы білім беру мектебі" КММ
+Айдарұлы  Бақдәулет  ,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,13,"Темір жалпы білім беру мектебі" КММ
+Амангелді Мадияр ,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,13,"Темір жалпы білім беру мектебі" КММ
+Амангелді  Сырым,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,13,"Темір жалпы білім беру мектебі" КММ
+Анарбек Сымбат,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,13,"Темір жалпы білім беру мектебі" КММ
+Әнуарбек Бақдәулет ,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,13,"Темір жалпы білім беру мектебі" КММ
+Әсілхан Аружан,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,13,"Темір жалпы білім беру мектебі" КММ
+Бөрібек Сырым ,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,13,"Темір жалпы білім беру мектебі" КММ
+Жүніс Әсел ,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,13,"Темір жалпы білім беру мектебі" КММ
+Кеңесбек Аруназ ,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,13,"Темір жалпы білім беру мектебі" КММ
+Қалдарбекова Айзере,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,13,"Темір жалпы білім беру мектебі" КММ
+Өзбекәлі Гүлнара ,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,13,"Темір жалпы білім беру мектебі" КММ
+Скоморохов  Марлен ,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,13,"Темір жалпы білім беру мектебі" КММ
+Шалабай Қадір ,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,13,"Темір жалпы білім беру мектебі" КММ
+Қалдыбек Бексұлтан,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,13,"Темір жалпы білім беру мектебі" КММ
+Айтбек Ақдана ,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,13,"Темір жалпы білім беру мектебі" КММ
+Ибадулла Арман,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,13,"Темір жалпы білім беру мектебі" КММ
+Уалихан  Нұрбақыт ,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,13,"Темір жалпы білім беру мектебі" КММ
+Ибадулла Аян,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,13,"Темір жалпы білім беру мектебі" КММ
+Әлімжан Айша,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,13,"Темір жалпы білім беру мектебі" КММ
+Әбілда Аружан,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,13,"Темір жалпы білім беру мектебі" КММ
+Әшірбеков Айат ,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,13,"Темір жалпы білім беру мектебі" КММ
+Батырбек Сезім ,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,13,"Темір жалпы білім беру мектебі" КММ
+Дюсенова Роза,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,13,"Темір жалпы білім беру мектебі" КММ
+Ертай Ақнұр,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,13,"Темір жалпы білім беру мектебі" КММ
+Елубаев Тимур,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,13,"Темір жалпы білім беру мектебі" КММ
+Жұпарбек Дана,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,13,"Темір жалпы білім беру мектебі" КММ
+Қанатқызы Әсел,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,13,"Темір жалпы білім беру мектебі" КММ
+Қанатұлы Жұбаныш,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,13,"Темір жалпы білім беру мектебі" КММ
+Құрбанали Парасат ,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,13,"Темір жалпы білім беру мектебі" КММ
+Марат Нұрасыл,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,13,"Темір жалпы білім беру мектебі" КММ
+Мәлік Алина,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,13,"Темір жалпы білім беру мектебі" КММ
+Мұхтар Назым,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,13,"Темір жалпы білім беру мектебі" КММ
+Пердехан Бейбарыс,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,13,"Темір жалпы білім беру мектебі" КММ
+Сайфолла Балауса,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,13,"Темір жалпы білім беру мектебі" КММ
+Серік Еркебұлан,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,13,"Темір жалпы білім беру мектебі" КММ
+Тұрабай Асылжан,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,13,"Темір жалпы білім беру мектебі" КММ
+Анарбек Ерғазы,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,13,"Темір жалпы білім беру мектебі" КММ
+Азат Мирас   ,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,13,"Темір жалпы білім беру мектебі" КММ
+Әбдуәлі Ерасыл,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,13,"Темір жалпы білім беру мектебі" КММ
+Әлім Бақдәулет,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,13,"Темір жалпы білім беру мектебі" КММ
+Әубәкір Даумед,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,13,"Темір жалпы білім беру мектебі" КММ
+Әшірхан Шұғыла,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,13,"Темір жалпы білім беру мектебі" КММ
+Беркінбай Еңлік,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,13,"Темір жалпы білім беру мектебі" КММ
+Еркін Бақдәулет,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,13,"Темір жалпы білім беру мектебі" КММ
+Ибадулла Ерасыл,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,13,"Темір жалпы білім беру мектебі" КММ
+Іңкәрбек Нұрбақыт,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,13,"Темір жалпы білім беру мектебі" КММ
+Қайыпберді Мұхамедияр,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,13,"Темір жалпы білім беру мектебі" КММ
+Мәдіхан Әсілай,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,13,"Темір жалпы білім беру мектебі" КММ
+Нұртаза Нұрасыл,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,male,13,"Темір жалпы білім беру мектебі" КММ
+Серікбай Аяулым,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,13,"Темір жалпы білім беру мектебі" КММ
+Серікбай Әдемі,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,13,"Темір жалпы білім беру мектебі" КММ
+Срайыл Айзере,tassauint@gmail.com,Туркестанская, Темір ауылы, student,kazakh,female,13,"Темір жалпы білім беру мектебі" КММ
+Дмитрий,zhurbenko_d@mail.ru,Северо-Казахстанская, Успенка, teacher,russian,male,39,КГУ "Успенская ош"
+Нурдаулет,nurdaulet.sakbaev@mail.ru,Костанайская, Қарасу ауданы, teacher,kazakh,male,27,Ы. Алтынсарин атындағы мемлекеттік тілде оқытатын жалпы білім беретін мектебі КММ
+Ажар,azharik_22@mail.ru,Акмолинская, Көкшетау , teacher,kazakh,female,37,Ош 1
+Сымбат ,somirbekova231@gmail.com,Алматы, , teacher,russian,female,23,Jiger 
+Женис,jenis2005n@gmail.com,Карагандинская, мет 78/25, teacher,kazakh,female,40,9 лицей
+Алишер,alisher_nazya@mail.ru,Карагандинская, c. Степное, teacher,russian,male,35,КГУ ОСШ №35
+Алишер,alisher_nazya@mail.ru,Карагандинская, c. Степное, teacher,russian,male,35,КГУ ОСШ №35
+Анна,annam2003@mail.ru,Акмолинская, Научный, teacher,russian,female,40,КГУ "Общеобразовательная школа поселка Научный отдела образования по Шортандинскому району управления образования Акмолинской области"
+Джамиля,filya301087@gmail.com,Астана, , student,kazakh,female,21,66 лицей
+Наталья,bereznichenkon@mail.ru,Акмолинская, Шортандинский район село Новоселовка, teacher,russian,female,39,КГУ "Общеобразовательная школа села Новоселовка отдела образования по Шортандинскому району управления образования Акмолинской области"
+Шмидт Дмитрий Павлович ,dimas981610@gmail.com,Северо-Казахстанская, Петропавловск, teacher,russian,male,25,КГУ "Средняя школа 14 имени Ю
+Гулнар,gulnur6272@mail.ru,Восточно-Казахстанская, , teacher,kazakh,female,52,ШҚО  білім басқармасының  Өскемен қаласы бойынша білім бөлімінің  "45 орта бейіндік мектебі" коммуналдық мемлекеттік мекемесі
+Людмила О.,vabel_72@mail.ru,Северо-Казахстанская, Кызылжарский район с.Приишимка, teacher,russian,female,51,КГУ "Приишимская ош"
+Анеева Улжан Бахтияровна,ulzhan.bakhtiyarovna@mail.ru,Северо-Казахстанская, Кривощеково, teacher,russian,female,33,Кривощеково ОМ
+Алишер,atadzanova069@gmail.com,Алматы, , student,russian,male,13,КГУ Школа-Лицей № 28 им. М. Маметовой
+Егор,egor122kz@gmail.com,Алматы, Алматинская область, student,russian,male,13,КГУ Школа-Лицей № 28 им. М. Маметовой
+Мардан,shkolajom@mail.ru,Шымкент, қала, student,kazakh,male,11,54
+Ерасыл,azimkhanoverasyl10@gmail.com,Алматы, Алматинская область, student,russian,male,13,КГУ Школа-Лицей № 28 им. М. Маметовой
+Нурлан,n.zeinelhan@mail.ru,Жетысуская, Сарқан, teacher,kazakh,male,46,Н.Островский атындағы мектеп-лицей 
+Adema,adematanabayeva@gmail.com,Западно-Казахстанская, Taldyk, teacher,russian,female,18,8
+Никита,kopytov.nikita2010@gmail.com,Алматы, Алматинская область, student,russian,male,13,КГУ Школа-Лицей № 28 им. М. Маметовой
+Зәуреш,zauresh.00.00@mail.ru,Восточно-Казахстанская, г.Алтай, teacher,russian,female,23,КГУ "Средняя школа №7 города Алтай"
+Лев,o.kungurtseva.79@gmail.com,Восточно-Казахстанская, Город, student,russian,male,12,Школа №6
+daniyar.kakimbekov,asdasd@asdsd.com,Астана, Test, teacher,russian,male,31,69th school gymnasiumAibek,Aibekkiynbekov@gmail.com,Кызылординская, Кызылорда, teacher,kazakh,male,32,НИШ г.Кызылорда
+Джамиля,sample@mail.com,Астана, , teacher,kazakh,female,22,66 лицей
+Azhar,super.azhoka@mail.ru,Алматы, , teacher,kazakh,female,40,№98 ЖББМ
+Adema,adematanabayeva@gmail.com,Астана, Taldyk, student,russian,female,18,8
+Adema,adematanabayeva@gmail.com,Астана, Taldyk, student,kazakh,female,18,8
+Лилия,skool262@mail.ru,Северо-Казахстанская, Булаево, teacher,russian,female,60,БСШ№2
+Улбосын,asel.user.reserv@gmail.com,Шымкент, , teacher,russian,female,39,Al-Farabi Bilim
+Жаудир,Jaudir9092@mail.ru,Шымкент, Қаратау, teacher,kazakh,female,31,72
+Дилноза,mullashikova87@bk.ru,Шымкент, Қаратау, teacher,kazakh,female,36,112 ЖОББМ
+Айгерім,aigerim.karabai@bk.ru,Шымкент, Шымкент, teacher,kazakh,female,22,28
+Айгерим,Milashka_kz_87@bk.ru,Шымкент, Шымкент, teacher,russian,female,36,4 школа
+Молдир,mokascool18@mail.ru,Шымкент, , teacher,kazakh,female,38,23
+Клара,klara_rk@mail.ru,Шымкент, , teacher,kazakh,female,44,34
+Уммат,ummat_007@mail.ru,Шымкент, Туркестан, teacher,kazakh,male,32,110
+Айгерим,erbolaigera_2011@mail.ru,Шымкент, , teacher,kazakh,female,32,90
+Мөлдір ,saparaliyevna94@gmail.com,Шымкент, , teacher,kazakh,female,29,45мектеп гимназия 
+Балхабекова Кыз-Жибек Сагынбековна,kyzzhibekb86@mail.ru,Шымкент, , teacher,kazakh,female,37,Ы.Алтынсарин атындағы 65 мектеп-гимназия
+Елена,gymnasium111-2@mail.ru,Алматы, , teacher,russian,female,57,КГУ "Гимназия№111"
+Куралай,kuralai2664@mail.ru,Шымкент, , teacher,kazakh,female,59,33
+test.name,daniyar_test@mail.com,Астана, test.place, teacher,russian,male,21,test.school
+test.name,daniyar_test@mail.com,Астана, test.place, teacher,russian,male,21,test.school
+Айнагуль,nykebaeva@mail.ru,Северо-Казахстанская, Петропавловск , teacher,russian,female,42,СШ 27
+Азамат,informatik.kazakhstan@gmail.com,Северо-Казахстанская, Новокаменка, teacher,russian,male,36,КГУ "Новокаменская средняя школа"
+Иван Янченко,ivan_login2013@mail.ru,Костанайская, Лисаковск, teacher,russian,male,28,КГУ«Школа-гимназия отдела образования города Лисаковска»
+sultanmurat197@gmail.com,tashxodjaev@mail.ru,Шымкент, Сайрам, teacher,kazakh,male,53,114
+Құралай ,kuralay1975@mail.ru,Алматы, , teacher,kazakh,female,48,N 181 жалпы білім беретің мектеп 
+Aсель,Kurmangalievaa@mail.ru,Восточно-Казахстанская, Алтай, teacher,kazakh,female,46,"Алтай қаласының √9 орта мектебі"КММ
+Евгений,evgenii007@mail.ru,Восточно-Казахстанская, п.Верхнеберезовский, teacher,russian,male,39,КГУ "Верх-Березовская СШ"
+Никтта,fillifybakhmet@yandex.ru,Павлодарская, Ефремовка, student,russian,male,16,СОШ
+Аслан,aslansarsenbai1@gmail.com,Павлодарская, , student,russian,male,15,Ефремовская
+Ablai,lol.rubot@gmail.com,Павлодарская, Павлодарская, student,russian,male,15,ЕфремовскаяСОШ
+Далельхан,amonkalashnikov@gmail.com,Павлодарская, Ефремовка , teacher,russian,male,15,Ефремовская СОШ
+Дима,atakuev2013@mail.ru,Павлодарская, Ефремовка, student,russian,male,15,Ефремовская СОШ
+Меруерт,meruyert.amirbay@mail.ru,Алматы, , teacher,kazakh,female,30,№181 ЖББМ
+Дмитрий,Assassincreed4345@gmail.com,Северо-Казахстанская, Кызылжарский район село Вагулино, student,russian,male,15,Вагулинская средняя школа
+Федор,fedorshevelev1703@gmail.com,Северо-Казахстанская, СЕЛО КРАСНЫЙ ЯР2, teacher,russian,male,15,ВАГУЛИНСКАЯ.СШ 
+вадим,v477153@gmai.com,Северо-Казахстанская, село вогулено, student,russian,male,15,вогуленская средняя школа
+Гриша,grigorijpjlukttv@gmail.com,Северо-Казахстанская, Село Вагулино, teacher,russian,male,15,Вагулинская С. Ш
+Елисей,krasilnikov2407@gmail.com,Северо-Казахстанская, Село Вагулино, student,russian,male,15,Вагулинска Средня Школа
+Виктор,BelovViktor@gma,Северо-Казахстанская, учебник, student,russian,male,16,КГУ Вагулинская СШ
+Виктор,BelovViktor@gma,Северо-Казахстанская, учебник, student,russian,male,16,КГУ Вагулинская СШ
+Тулешова Гулшат,toleshova00@mail.ru,Шымкент, , teacher,kazakh,female,35,133ЖОББМ
+adema,adema@method.kz,Жетысуская, Талдыкорган, student,russian,female,29,27
+Эльвира,eliajunis@mail.ru,Жамбылская, Тараз, teacher,kazakh,female,35,Ы.Алтынсарин атындағы №49 мектеп-гимназия
+Ablai,lol.rubot@gmail.com,Павлодарская, Павлодарская, student,russian,male,15,ЕфремовскаяСОШ
+Жексен,jeks85@mail.ru,Туркестанская, Ленгер, teacher,kazakh,male,38,Ынтымақ ЖОМ
+Ақерке,akerkeasan3@gmail.com,Жамбылская, Тараз, student,kazakh,female,13,49
+Айнура,adurai9@mail.ru,Шымкент, Шымкент, teacher,kazakh,female,37,54 жоббм
+Аскат,askatnurmahanbet@gmail.com,Жамбылская, Тараз, student,kazakh,male,12,Ыбыраи Алтынсарин 49 мектеп
+Керімбай Досжан Бауыржанұлы ,beysembayev.b@bk.ru,Жамбылская, Тараз, student,kazakh,male,12,Ыбырай Алтынсарин атындағы №49 мектеп-гимназия 
+Жансель,aigera.1217@mail.ru,Жамбылская, Жамбыл, student,kazakh,female,11,49 мектеп 
+Жансая,bakhytzhanova@gmail.com,Жамбылская, Тараз , student,kazakh,female,11,Ыбырай Алтынсарин атындағы №49 мектеп
+Үзілхан,uzilkhan92@bk.ru,Шымкент, , teacher,kazakh,female,31,Жас Дарын 3
+Есентай Батыржан,esentaibatyrjan@gmail.com,Жамбылская, Тараз қаласы Жамбыл обылысы, student,kazakh,male,11,49
+Куаныш ,shalabaevk88@gmail.com,Атырауская, Құлсары , teacher,kazakh,male,35,Жас техниктер станциясы 
+Куаныш ,shalabaevk88@gmail.com,Атырауская, Құлсары , teacher,kazakh,male,35,Жас техниктер станциясы 
+Абай Альмира ,abaialmira11@gmail.com,Жамбылская, Тараз , student,kazakh,female,12,49 мектеп 
+Okeygorandom https://www.google.com/,riptobiodo+332@bk.ru,%C6%E5%F2%FB%F1%F3%F1%EA%E0 , , student,kazakh,1,32,
+Жазира ,zhazira8888@mail.ru,Алматы, , teacher,kazakh,female,34,Ғ.Мүсірепов атындағы #86 мектеп-гимназия
+Жанали,zhanalimaratbek@mail.ru,Жамбылская, , student,kazakh,male,12,49
+Индира,duisembaeva_i@mail.ru,Астана, , teacher,russian,female,24,Skillset
+Асылай,asylaialtynbek49@gmail.com,Жамбылская, Тараз қ. , student,kazakh,female,11,№49мектеп-гимназия 
+Касимов Ерасыл,Kasimoverasyl08@gmail.com,Жамбылская, Тараз, student,kazakh,male,12,49
+Муаххид,maxa18042003@gmail.com,Шымкент, , teacher,russian,male,20,RoboPark
+Жансауле,tanatar2024@mail.ru,Астана, , teacher,kazakh,female,25,58.Ілияс Жансүгіров атындағы мектеп
+Карлыгаш,karlygash.manatbek.84@mail.ru,Алматы, Медеу ауданы, teacher,kazakh,female,39,Б.Момышұлы атындағы 131мектеп-лицей
