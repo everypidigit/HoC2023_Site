@@ -4,7 +4,8 @@
   "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node index.js"
+    "build": "node index.js",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
@@ -25,5 +26,6 @@
     "url": "https://github.com/everypidigit/nodeJS_server_HoC2023/issues"
   },
   "homepage": "https://github.com/everypidigit/nodeJS_server_HoC2023#readme",
-  "description": ""
+  "description": "This repository containts the files for the HoC2023 KZ site",
+  "devDependencies": {}
 }
