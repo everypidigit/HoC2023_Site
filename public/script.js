@@ -58,13 +58,22 @@ $(document).ready(function () {
                 data: formData,
                 success: function (response) {
                     console.log(response);
-            
-                    // Check the selected role
                     const selectedRole = $('#role').val();
+                    const selectedLanguage = $('#language').val();
             
                     // Redirect to a specific URL based on the role
                     if (selectedRole === 'student') {
                         window.location.href = 'https://drive.google.com/file/d/1Y0tqcUUXLSuCHh1wBTM0jiLHMhttb7PG/view?usp=drive_link';
+
+                        // if (selectedLanguage === 'russian') {
+                        //     window.location.href = 'https://your-student-russian-url.com';
+                        // } else if (selectedLanguage === 'kazakh') {
+                        //     window.location.href = 'https://your-student-kazakh-url.com';
+                        // } else if (selectedLanguage === 'english') {
+                        //     window.location.href = 'https://your-student-english-url.com';
+                        // }
+
+
                     } else {
                         // For other roles or no role specified, show the confirmation message
                         $('#registrationForm').hide();
