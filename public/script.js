@@ -58,10 +58,18 @@ $(document).ready(function () {
                 data: formData,
                 success: function (response) {
                     console.log(response);
-
-                    // Hide registration form and show confirmation message
-                    $('#registrationForm').hide();
-                    $('#confirmationMessage').show();
+            
+                    // Check the selected role
+                    const selectedRole = $('#role').val();
+            
+                    // Redirect to a specific URL based on the role
+                    if (selectedRole === 'student') {
+                        window.location.href = 'https://drive.google.com/file/d/1Y0tqcUUXLSuCHh1wBTM0jiLHMhttb7PG/view?usp=drive_link';
+                    } else {
+                        // For other roles or no role specified, show the confirmation message
+                        $('#registrationForm').hide();
+                        $('#confirmationMessage').show();
+                    }
                 },
                 error: function (error) {
                     console.error('Error:', error);
