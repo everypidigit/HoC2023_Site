@@ -33,11 +33,9 @@ $(document).ready(function () {
         $('#registrationPopup').fadeOut();
     });
 
-    // Handle form submission
     $('#registrationForm').submit(function (event) {
-        event.preventDefault(); // Prevent the default form submission
+        event.preventDefault();
 
-        // Validate inputs before sending to the server
         if (validateInputs()) {
             const formData = {
                 username: $('#username').val(),
@@ -51,7 +49,6 @@ $(document).ready(function () {
                 school: $('#school').val(),
             };
 
-            // Send data to server
             $.ajax({
                 type: 'POST',
                 url: '/register',
@@ -63,15 +60,15 @@ $(document).ready(function () {
             
                     // Redirect to a specific URL based on the role
                     if (selectedRole === 'student') {
-                        window.location.href = 'https://drive.google.com/file/d/1Y0tqcUUXLSuCHh1wBTM0jiLHMhttb7PG/view?usp=drive_link';
+                        // window.location.href = 'https://drive.google.com/file/d/1Y0tqcUUXLSuCHh1wBTM0jiLHMhttb7PG/view?usp=drive_link';
 
-                        // if (selectedLanguage === 'russian') {
-                        //     window.location.href = 'https://your-student-russian-url.com';
-                        // } else if (selectedLanguage === 'kazakh') {
-                        //     window.location.href = 'https://your-student-kazakh-url.com';
-                        // } else if (selectedLanguage === 'english') {
-                        //     window.location.href = 'https://your-student-english-url.com';
-                        // }
+                        if (selectedLanguage === 'russian') {
+                            window.location.href = 'https://drive.google.com/file/d/1Y0tqcUUXLSuCHh1wBTM0jiLHMhttb7PG/view?usp=drive_link';
+                        } else if (selectedLanguage === 'kazakh') {
+                            window.location.href = 'https://drive.google.com/file/d/1zIs_9Vo4r-iV08KhFkvNFrAgvIa9EwuX/view';
+                        } else if (selectedLanguage === 'english') {
+                            window.location.href = 'https://drive.google.com/file/d/1o9Pp6EeDc4vCy2I3v2nwAVbjlYPea4Xb/view?usp=drive_link';
+                        }
 
 
                     } else {
