@@ -67,7 +67,7 @@ form {
 }
 
 #registrationForm select, input {
-  width: 100px;
+  width: 200px;
 }
 
 #registrationForm label{
