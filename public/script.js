@@ -81,9 +81,6 @@ $(document).ready(function () {
                     console.error('Error:', error);
                 }
             });
-        } else {
-            // Validation failed, show error message
-            showError('Запрещено вводить " , "!');
         }
     });
 
@@ -98,14 +95,29 @@ $(document).ready(function () {
     // Input validation function
     function validateInputs() {
         // Define prohibited characters
-        const prohibitedCharacters = /[,&!?]/;
+        const prohibitedCharacters = /[,&!?%^#+-]/;
 
         // Check each input for prohibited characters
         const inputs = ['#username', '#email', '#region', '#place', '#role', '#language', '#gender', '#age', '#school'];
         for (const input of inputs) {
-            const value = $(input).val();
+            const value = $(input).val().trim();
+
+            // Check if the input is empty
+            if (!value) {
+                alert(`Please fill in ${input}`);
+                return false;
+            }
+
+            // Additional validation for gender
+            if (input === '#gender' && !isInArray(value.toLowerCase(), ['male', 'female'])) {
+                alert('Invalid gender. Please choose either "Male" or "Female".');
+                return false;
+            }
+
+            // Check for prohibited characters
             if (prohibitedCharacters.test(value)) {
-                return false; // Validation failed
+                alert(`Запрещено вводить ,&!?%^#+-`);
+                return false;
             }
         }
 
@@ -120,5 +132,9 @@ $(document).ready(function () {
         // Create and append a new error message
         const errorMessage = $('<div class="error-message"></div>').text(message);
         $('#registrationForm').append(errorMessage);
+    }
+
+    function isInArray(value, array) {
+        return array.indexOf(value) > -1;
     }
 });
