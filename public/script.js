@@ -81,6 +81,9 @@ $(document).ready(function () {
                     console.error('Error:', error);
                 }
             });
+        } else {
+            $('.error-message').remove();
+            alert(`Запрещено вводить ,&!?%^#+`);
         }
     });
 
@@ -95,7 +98,7 @@ $(document).ready(function () {
     // Input validation function
     function validateInputs() {
         // Define prohibited characters
-        const prohibitedCharacters = /[,&!?%^#+-]/;
+        const prohibitedCharacters = /[,&!?%^#+]/;
 
         // Check each input for prohibited characters
         const inputs = ['#username', '#email', '#region', '#place', '#role', '#language', '#gender', '#age', '#school'];
@@ -116,7 +119,6 @@ $(document).ready(function () {
 
             // Check for prohibited characters
             if (prohibitedCharacters.test(value)) {
-                alert(`Запрещено вводить ,&!?%^#+-`);
                 return false;
             }
         }
@@ -124,15 +126,6 @@ $(document).ready(function () {
         return true; // Validation passed
     }
 
-    // Function to show an error message
-    function showError(message) {
-        // Remove any existing error messages
-        $('.error-message').remove();
-
-        // Create and append a new error message
-        const errorMessage = $('<div class="error-message"></div>').text(message);
-        $('#registrationForm').append(errorMessage);
-    }
 
     function isInArray(value, array) {
         return array.indexOf(value) > -1;
