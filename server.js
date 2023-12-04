@@ -49,13 +49,15 @@ function writeToLog(timestamp, userId) {
 
 app.post('/register', async (req, res) => {
     const timestamp = new Date();
+    const currentDate = new Date().toLocaleDateString(); 
+    const currentTimestamp = new Date().toISOString()
     const userId = userCounter;
     writeToLog(timestamp, userId);
 
     const { username, email, region, place, role, language, gender, age, school } = req.body;
 
     // Format data as CSV
-    const userData = `${username},${email},${region}, ${place}, ${role},${language},${gender},${age},${school}\n`;
+    const userData = `${username},${email},${region}, ${place}, ${role},${language},${gender},${age},${school}, ${currentDate}, ${currentTimestamp}\n`;
 
     // Enqueue the request
     requestQueue.push({ userData, res });
