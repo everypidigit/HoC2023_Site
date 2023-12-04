@@ -50,7 +50,7 @@ function writeToLog(timestamp, userId) {
 app.post('/register', async (req, res) => {
     const timestamp = new Date();
     const currentDate = new Date().toLocaleDateString(); 
-    const currentTimestamp = new Date().toISOString()
+    const currentTimestamp = timestamp.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
     const userId = userCounter;
     writeToLog(timestamp, userId);
 
