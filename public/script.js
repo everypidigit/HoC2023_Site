@@ -82,16 +82,16 @@ $(document).ready(function () {
                 }
             });
         } else {
-            $('.error-message').remove();
-            alert(`Запрещено вводить ,&!?%^#+`);
+            alert(`\n\nБұл тізімнен таңбаларды енгізуге тыйым салынады: ,&!?%^#+ \n\n\nЗапрещено вводить вводить символы из этого списка: ,&!?%^#+`);
         }
     });
 
     // Close confirmation message
     $('#closeConfirmation').click(function () {
         $('#registrationPopup').fadeOut();
-        // Reset form and show form fields
+        
         $('#registrationForm').trigger('reset').show();
+
         $('#confirmationMessage').hide();
     });
 
@@ -126,8 +126,28 @@ $(document).ready(function () {
         return true; // Validation passed
     }
 
-
     function isInArray(value, array) {
         return array.indexOf(value) > -1;
     }
+
+    document.addEventListener('DOMContentLoaded', function () {
+        showWarning();
+    });
+
+    function showWarning(message) {
+        const warningContainer = document.getElementById('warningContainer');
+        const warningMessage = document.getElementById('warningMessage');
+        const closeButton = document.getElementById('closeWarningButton');
+
+        warningMessage.textContent = message;
+        warningContainer.classList.remove('hidden');
+
+        closeButton.addEventListener('click', function () {
+            $('#warningContainer').show();
+        });
+    }
+    $('#closeWarningButton').click(function () {
+        $('#warningContainer').fadeOut();
+    });
+
 });
